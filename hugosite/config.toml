@@ -1,10 +1,10 @@
 # Site settings
 baseurl = "http://iotone-nuevo.azurewebsites.net/"
 languageCode = "en-us"
-title = "Hugrid - Grid Theme For Hugo"
+title = "IoTone, Inc. Home"
 theme = "hugrid"
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = "UA-XXXXXXXX-Y"
+googleAnalytics = "UA-70840299-1"
 
 contentdir = "content"
 datadir = "data"
@@ -13,11 +13,11 @@ publishdir = "public"
 
 [params]
     # Meta
-    title = "Hugrid - a simple grid theme for Hugo"
-    subtitle = "A kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on."
+    title = "IoTone, Inc."
+    subtitle = "Unified Device Intelligence"
     author = "Pavel Kanyshev"
-    description = "Hugrid - grid theme for Hugo with an expanding image preview."
-    keywords = "Hugo, Hugo theme, grid theme, portfolio, bookmarks, collection, contacts"
+    description = "IoTone, Inc., Home page"
+    keywords = "IoT, Device, Embedded, Protocol, AI, MachineLearning, Hugo, Hugo theme, grid theme, portfolio, bookmarks, collection, contacts"
 
     # Body background color
     bodybgcolor = "#f9f9f9"
@@ -26,7 +26,7 @@ publishdir = "public"
     buttontext = "Get the theme"
 
     # Footer text
-    footertext = "Made by [Codrops](http://tympanus.net/codrops/2013/03/19/thumbnail-grid-with-expanding-preview/), [Hugo](http://gohugo.io) and [me](https://github.com/aerohub)"
+    footertext = "Copyright &copy; IoTone, Inc. 2015-2017 Theme Made by [Codrops](http://tympanus.net/codrops/2013/03/19/thumbnail-grid-with-expanding-preview/), [Hugo](http://gohugo.io) and [aerohub](https://github.com/aerohub)"
 
     # add extra-css
     # custom_css = ['css/extra1.css', 'css/extra2.css']
