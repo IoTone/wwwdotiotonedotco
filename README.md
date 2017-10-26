@@ -4,10 +4,12 @@ This is the new repository
 
 ## Generate
 
+- cd hugosite
 - hugo -d ../public
 
 ## Test
 
+- cd hugosite
 - hugo server -D
 
 ## Deploy
