@@ -23,7 +23,7 @@ publishdir = "public"
     bodybgcolor = "#f9f9f9"
 
     # Preview container button text
-    buttontext = "Go"
+    buttontext = "GO HERE"
 
     # Footer text
     footertext = "Copyright &copy; IoTone, Inc. 2014-2017 Theme Made by [Codrops](http://tympanus.net/codrops/2013/03/19/thumbnail-grid-with-expanding-preview/), [Hugo](http://gohugo.io) and [aerohub](https://github.com/aerohub)"
