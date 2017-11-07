@@ -267,12 +267,13 @@
 
 				Preview.prototype = {
 					create : function() {
+						this.$textoverlay = $('<h2 class="textOverlay"><br /></h2>')
 						this.$title = $( '<h3></h3>' );
 						this.$description = $( '<p></p>' );
 						this.$href = $( '<a href="#" target="_blank">{{ .Site.Params.buttontext }}</a>' );
 						this.$details = $( '<div class="og-details"></div>' ).append( this.$title, this.$description, this.$href );
 						this.$loading = $( '<div class="og-loading"></div>' );
-						this.$fullimage = $( '<div class="og-fullimg"></div>' ).append( this.$loading );
+						this.$fullimage = $( '<div class="og-fullimg"></div>' ).append( this.$loading, this.$textoverlay );
 						this.$closePreview = $( '<span class="og-close"></span>' );
 						this.$previewInner = $( '<div class="og-expander-inner"></div>' ).append( this.$closePreview, this.$fullimage, this.$details );
 						this.$previewEl = $( '<div class="og-expander"></div>' ).append( this.$previewInner );
@@ -302,11 +303,13 @@
 								largesrc : $itemEl.data( 'largesrc' ),
 								title : $itemEl.data( 'title' ),
 								description : $itemEl.data( 'description' ),
-								buttontext : $itemEl.data( 'buttontext' )
+								buttontext : $itemEl.data( 'buttontext' ),
+								textoverlay : $itemEl.data( 'textoverlay' )
 							};
 
 						this.$title.html( eldata.title );
 						this.$description.html( eldata.description );
+						this.$textoverlay.html( eldata.textoverlay );
 						if(eldata.buttontext) this.$href.text(eldata.buttontext);
 						else this.$href.text("{{ .Site.Params.buttontext }}")
 
