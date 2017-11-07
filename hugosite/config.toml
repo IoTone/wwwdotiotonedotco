@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://iotone-nuevo.azurewebsites.net/"
+baseurl = "http://iotone.co"
 languageCode = "en-us"
 title = "IoTone, Inc. Home"
 theme = "hugrid"
@@ -15,15 +15,15 @@ publishdir = "public"
     # Meta
     title = "IoTone, Inc."
     subtitle = "Unified Device Intelligence"
-    author = "Pavel Kanyshev"
+    author = "IoTone, Inc."
     description = "IoTone, Inc., Home page"
-    keywords = "IoT, Device, Embedded, Protocol, AI, MachineLearning, Hugo, Hugo theme, grid theme, portfolio, bookmarks, collection, contacts"
+    keywords = "IoT, Device, Embedded, Protocol, AI, MachineLearning, Cryptocurrency, Mining, Consulting, Hyperlocal"
 
     # Body background color
     bodybgcolor = "#f9f9f9"
 
     # Preview container button text
-    buttontext = "GO HERE"
+    buttontext = "GO"
 
     # Footer text
     footertext = "Copyright &copy; IoTone, Inc. 2014-2017 Theme Made by [Codrops](http://tympanus.net/codrops/2013/03/19/thumbnail-grid-with-expanding-preview/), [Hugo](http://gohugo.io) and [aerohub](https://github.com/aerohub)"
