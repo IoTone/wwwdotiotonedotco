@@ -17,7 +17,7 @@ publishdir = "public"
     subtitle = "Unified Device Intelligence"
     author = "IoTone, Inc."
     description = "IoTone, Inc., Home page"
-    keywords = "IoT, Device, Embedded, Protocol, AI, MachineLearning, Cryptocurrency, Mining, Consulting, Hyperlocal"
+    keywords = "IoT, Device, Embedded, Protocol, AI, MachineLearning, Blockchain, NFC, Android, iOS, Hyperlocal"
 
     # Body background color
     bodybgcolor = "#f9f9f9"
