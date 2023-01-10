@@ -17,7 +17,7 @@ publishdir = "public"
     subtitle = "Unified Device Intelligence"
     author = "IoTone, Inc."
     description = "IoTone, Inc., Home page"
-    keywords = "IoT, Device, Embedded, Protocol, AI, MachineLearning, Blockchain, NFC, Android, iOS, Hyperlocal"
+    keywords = "IoT, Device, Embedded, Protocol, AI, MachineLearning, VR, AR, Augmented Reality, Virtual Reality, NFC, Android, iOS, Hyperlocal"
 
     # Body background color
     bodybgcolor = "#f9f9f9"
@@ -26,7 +26,7 @@ publishdir = "public"
     buttontext = "GO"
 
     # Footer text
-    footertext = "Copyright &copy; IoTone, Inc. 2014-2021. Theme Made by [Codrops](http://tympanus.net/codrops/2013/03/19/thumbnail-grid-with-expanding-preview/), [Hugo](http://gohugo.io) and [aerohub](https://github.com/aerohub)"
+    footertext = "Copyright &copy; IoTone, Inc. 2014-2023. Theme Made by [Codrops](http://tympanus.net/codrops/2013/03/19/thumbnail-grid-with-expanding-preview/), [Hugo](http://gohugo.io) and [aerohub](https://github.com/aerohub)"
 
     # add extra-css
     # custom_css = ['css/extra1.css', 'css/extra2.css']
