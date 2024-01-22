@@ -26,7 +26,7 @@ publishdir = "public"
     buttontext = "GO"
 
     # Footer text
-    footertext = "Copyright &copy; IoTone, Inc. 2014-2023. Theme Made by [Codrops](http://tympanus.net/codrops/2013/03/19/thumbnail-grid-with-expanding-preview/), [Hugo](http://gohugo.io) and [aerohub](https://github.com/aerohub)"
+    footertext = "Copyright &copy; IoTone, Inc. 2014-2024. Theme Made by [Codrops](http://tympanus.net/codrops/2013/03/19/thumbnail-grid-with-expanding-preview/), [Hugo](http://gohugo.io) and [aerohub](https://github.com/aerohub)"
 
     # add extra-css
     # custom_css = ['css/extra1.css', 'css/extra2.css']
