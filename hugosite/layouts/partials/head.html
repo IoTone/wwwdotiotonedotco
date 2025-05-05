@@ -5,7 +5,7 @@
 <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}" />
 <meta name="keywords" content="{{ with .Site.Params.keywords }}{{ . }}{{ end }}" />
 <meta name="author" content="{{ with .Site.Params.author }}{{ . }}{{ end }}" />
-{{ .Hugo.Generator }}
+{{ .Site.Hugo.Generator }}
 <style>
 body {
 background: {{ .Site.Params.bodybgcolor }};
