@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://iotone.co/"
+baseurl = "https://www.iotone.co/"
 languageCode = "en-us"
 title = "IoTone, Inc. Home"
 theme = "hugrid"
