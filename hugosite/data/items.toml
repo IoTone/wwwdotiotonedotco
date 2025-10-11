@@ -10,7 +10,7 @@ image = "images/full/1.png"
 thumb = "images/thumbs/1.png"
 alt = "Contact Us"
 textoverlay = "Contact Us"
-description = "IoTone, Inc. is located in Los Gatos, CA.  Reach us by phone: +14156448938, or send us an email.  <ul><li><a href='https://www.linkedin.com/in/dkords'>David J. Kordsmeier, CEO</a></li><li><a href='mailto:info@iotone.io'>Email Us</a></li></ul>"
+description = "IoTone, Inc. is located in Portland, OR.  Reach us by phone: +14156448938, or send us an email.  <ul><li><a href='mailto:info@iotone.io'>Email Us</a></li></ul>"
 [[items]]
 title = "Spectacles DeskWindow (AR)"
 image = "images/full/5.png"
