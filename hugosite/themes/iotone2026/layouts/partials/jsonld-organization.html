@@ -1,0 +1,22 @@
+{{- $logo := "images/full/iotone_logo_v1d.png" | absURL -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "{{ .Site.Params.author | default "IoTone, Inc." }}",
+  "url": "{{ .Site.BaseURL }}",
+  "logo": "{{ $logo }}",
+  "description": "{{ .Site.Params.description }}",
+  "foundingDate": "{{ .Site.Params.founded | default "2014" }}",
+  "sameAs": [
+    {{ with .Site.Params.github_url }}"{{ . }}"{{ end }}{{ if and .Site.Params.github_url .Site.Params.linkedin_url }},{{ end }}
+    {{ with .Site.Params.linkedin_url }}"{{ . }}"{{ end }}
+  ],
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "email": "{{ .Site.Params.email | default "info@iotone.io" }}"{{ with .Site.Params.phone }},
+    "telephone": "{{ . }}"{{ end }}
+  }]
+}
+</script>

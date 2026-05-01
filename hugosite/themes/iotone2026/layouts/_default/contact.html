@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="page">
+  <div class="contact-wrap">
+    <div>
+      {{ with .Params.eyebrow }}<span style="font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-dim);">{{ . }}</span>{{ end }}
+      <h2>{{ .Title }}</h2>
+      <div class="content">{{ .Content }}</div>
+
+      <div class="channels" style="margin-top: 32px;">
+        {{ with .Site.Params.email }}<a href="mailto:{{ . }}"><span class="label">Email</span><span>{{ . }}</span></a>{{ end }}
+        {{ with .Site.Params.email_sales }}<a href="mailto:{{ . }}"><span class="label">Sales</span><span>{{ . }}</span></a>{{ end }}
+        {{ with .Site.Params.phone }}<a href="tel:{{ . | replaceRE "[^0-9+]" "" }}"><span class="label">Phone</span><span>{{ . }}</span></a>{{ end }}
+        {{ with .Site.Params.github_url }}<a href="{{ . }}" rel="noopener"><span class="label">GitHub</span><span>{{ . | replaceRE "^https?://(www\\.)?" "" }}</span></a>{{ end }}
+        {{ with .Site.Params.linkedin_url }}<a href="{{ . }}" rel="noopener"><span class="label">LinkedIn</span><span>{{ . | replaceRE "^https?://(www\\.)?" "" }}</span></a>{{ end }}
+      </div>
+
+      <p style="margin-top: 28px; font-size: 14px; color: var(--text-dim);">{{ .Site.Params.studios | default "PDX (Portland, OR) · Fukuoka, Japan." }}</p>
+    </div>
+    <div>
+      <form action="{{ .Site.Params.contact_form_action | default "" }}" method="post" onsubmit="{{ if not .Site.Params.contact_form_action }}event.preventDefault(); alert('Form not yet wired — please email info@iotone.io.');{{ end }}">
+        <input name="name" placeholder="Your name" required>
+        <input name="email" type="email" placeholder="Email" required>
+        <input name="company" placeholder="Company (optional)">
+        <input name="subject" placeholder="Subject">
+        <textarea name="message" placeholder="What's the project?" required></textarea>
+        <button class="btn primary" type="submit" style="align-self: flex-start;">Send →</button>
+      </form>
+    </div>
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,10 @@
+{{ define "main" }}
+<article class="single-page page">
+  {{ with .Params.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="lede">{{ . }}</p>{{ else }}{{ with .Params.summary }}<p class="lede">{{ . | safeHTML }}</p>{{ end }}{{ end }}
+  <div class="content">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}

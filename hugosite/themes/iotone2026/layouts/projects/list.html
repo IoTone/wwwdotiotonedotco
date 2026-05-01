@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="page">
+  <section class="proj-list-hero">
+    <p class="eyebrow">{{ .Params.eyebrow | default "Projects · 2014 → present" }}</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="lede">{{ . }}</p>{{ else }}{{ with .Content }}<div class="lede">{{ . }}</div>{{ end }}{{ end }}
+  </section>
+
+  <div class="proj-grid-full">
+    {{ range .Pages.ByWeight }}
+      {{ partial "project-card.html" . }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

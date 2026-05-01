@@ -1,0 +1,20 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+{{ partial "seo.html" . }}
+
+<link rel="canonical" href="{{ .Permalink }}">
+<link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} News" href="{{ "news/index.xml" | absURL }}">
+
+<link rel="icon" href="{{ "images/favicon.ico" | absURL }}" type="image/x-icon">
+<link rel="apple-touch-icon" href="{{ "images/apple-touch-icon.png" | absURL }}">
+
+<link rel="stylesheet" href="{{ "css/main.css" | absURL }}">
+{{ range .Site.Params.custom_css }}<link rel="stylesheet" href="{{ . | absURL }}">{{ end }}
+
+{{ if eq .Kind "home" }}{{ partial "jsonld-organization.html" . }}{{ end }}
+{{ if and (eq .Section "news") (eq .Kind "page") }}{{ partial "jsonld-article.html" . }}{{ end }}
+
+{{ with site.Config.Services.GoogleAnalytics.ID }}{{ template "_internal/google_analytics.html" $ }}{{ end }}
+{{ hugo.Generator }}

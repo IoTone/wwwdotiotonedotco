@@ -1,0 +1,26 @@
+{{- /* Renders a single project showcase panel.
+       Context: the project page (.). Outer template controls .panel.tall via wrapper. */ -}}
+{{- $visual := .Params.hero_visual | default "gradient" -}}
+{{- $visualClass := "" -}}
+{{- if eq $visual "gradient" -}}{{ $visualClass = "" }}
+{{- else if hasPrefix $visual "alt-" -}}{{ $visualClass = $visual }}
+{{- end -}}
+{{- $isImage := and $visual (ne $visual "gradient") (not (hasPrefix $visual "alt-")) -}}
+<a class="panel{{ if .Params.tall }} tall{{ end }}" href="{{ .RelPermalink }}">
+  <div class="visual {{ $visualClass }}">
+    {{- if $isImage -}}
+      <img src="{{ $visual | absURL }}" alt="{{ .Title }}">
+    {{- else -}}
+      {{ .Title }}
+    {{- end -}}
+  </div>
+  <div class="body">
+    {{ with .Params.pill }}<span class="pill">{{ . }}</span>{{ end }}
+    <h3>{{ .Title }}</h3>
+    <p>{{ with .Params.summary }}{{ . | safeHTML }}{{ else }}{{ .Summary | plainify | truncate 180 }}{{ end }}</p>
+    <div class="meta">
+      {{ with .Params.status }}<span class="status status-{{ . }}">{{ . }}</span>{{ end }}
+      {{ with .Params.language }}<span class="lang">{{ . }}</span>{{ end }}
+    </div>
+  </div>
+</a>

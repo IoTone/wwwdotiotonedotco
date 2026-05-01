@@ -1,0 +1,52 @@
+{{ define "main" }}
+{{- $visual := .Params.hero_visual | default "gradient" -}}
+{{- $visualClass := "" -}}
+{{- if eq $visual "gradient" -}}{{ $visualClass = "" }}
+{{- else if hasPrefix $visual "alt-" -}}{{ $visualClass = $visual }}
+{{- end -}}
+{{- $isImage := and $visual (ne $visual "gradient") (not (hasPrefix $visual "alt-")) -}}
+
+<div class="page">
+  <section class="proj-hero">
+    <div>
+      {{ with .Params.pill }}<span class="pill">{{ . }}</span>{{ end }}
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.summary }}<p class="lede">{{ . | safeHTML }}</p>{{ end }}
+      <div class="cta-row">
+        {{ with .Params.github_url }}<a class="btn primary" href="{{ . }}" rel="noopener">Source on GitHub</a>{{ end }}
+        {{ with .Params.related_news }}<a class="btn ghost" href="{{ . | relURL }}">Read launch story</a>{{ end }}
+        {{ with .Params.product_url }}<a class="btn ghost" href="{{ . }}" rel="noopener">Product page</a>{{ end }}
+      </div>
+    </div>
+    <div class="visual {{ $visualClass }}">
+      {{- if $isImage -}}
+        <img src="{{ $visual | absURL }}" alt="{{ .Title }}">
+      {{- end -}}
+    </div>
+  </section>
+
+  <div class="proj-body">
+    <aside class="facts">
+      {{ with .Params.status }}<dt>Status</dt><dd>{{ . | title }}</dd>{{ end }}
+      {{ with .Date }}<dt>Started</dt><dd>{{ .Format "January 2006" }}</dd>{{ end }}
+      {{ with .Params.language }}<dt>Language</dt><dd>{{ . }}</dd>{{ end }}
+      {{ with .Params.license }}<dt>License</dt><dd>{{ . }}</dd>{{ end }}
+      {{ with .Params.award }}<dt>Award</dt><dd>{{ . }}</dd>{{ end }}
+      {{ with .Params.github_url }}<dt>GitHub</dt><dd><a href="{{ . }}" rel="noopener">{{ . | replaceRE "^https?://(www\\.)?" "" }}</a></dd>{{ end }}
+      {{ with .Params.tags }}<dt>Tags</dt><dd>{{ delimit . ", " }}</dd>{{ end }}
+      {{ with .Params.related_projects }}
+      <dt>Related</dt>
+      <dd>
+        {{ range . }}
+          {{ $rel := site.GetPage (printf "/projects/%s" .) }}
+          {{ if $rel }}<a href="{{ $rel.RelPermalink }}">{{ $rel.Title }}</a><br>{{ end }}
+        {{ end }}
+      </dd>
+      {{ end }}
+    </aside>
+    <article class="content">
+      {{ .Content }}
+    </article>
+  </div>
+</div>
+{{ end }}

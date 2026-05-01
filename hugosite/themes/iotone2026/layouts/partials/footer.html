@@ -1,0 +1,32 @@
+<footer class="site" role="contentinfo">
+  <div class="brand-block">
+    <a class="brand" href="{{ "/" | relURL }}">
+      <img class="logo" src="{{ "images/thumbs/iotone_logo_v1d250x250.png" | absURL }}" alt="IoTone, Inc.">
+      {{ .Site.Params.brand_text | default "IoTone" }}
+    </a>
+    {{ .Site.Params.tagline | default "Open source for spatial, wearable, and IoT. PDX + Fukuoka." }}
+  </div>
+
+  <div class="col">
+    <h4>Studio</h4>
+    {{ range .Site.Menus.main }}<a href="{{ .URL | relURL }}">{{ .Name }}</a>{{ end }}
+  </div>
+
+  <div class="col">
+    <h4>Code</h4>
+    {{ with .Site.Params.github_url }}<a href="{{ . }}" rel="noopener">GitHub</a>{{ end }}
+    <a href="{{ "news/index.xml" | absURL }}">RSS</a>
+  </div>
+
+  <div class="col">
+    <h4>Reach</h4>
+    {{ with .Site.Params.email }}<a href="mailto:{{ . }}">{{ . }}</a>{{ end }}
+    {{ with .Site.Params.linkedin_url }}<a href="{{ . }}" rel="noopener">LinkedIn</a>{{ end }}
+    {{ with .Site.Params.phone }}<a href="tel:{{ . | replaceRE "[^0-9+]" "" }}">{{ . }}</a>{{ end }}
+  </div>
+
+  <div class="copyright">
+    Copyright &copy; {{ .Site.Params.author | default "IoTone, Inc." }} {{ .Site.Params.founded | default "2014" }}-{{ now.Format "2006" }}.
+    {{ with .Site.Params.footertext }}{{ . | safeHTML }}{{ end }}
+  </div>
+</footer>

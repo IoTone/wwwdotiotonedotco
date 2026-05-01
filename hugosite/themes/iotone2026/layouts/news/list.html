@@ -1,0 +1,46 @@
+{{ define "main" }}
+{{- $posts := .Pages.ByDate.Reverse -}}
+{{- $feature := index $posts 0 -}}
+{{- $rest := after 1 $posts -}}
+
+<div class="page news-magazine">
+  {{ if $feature }}
+  <div class="feature">
+    <div>
+      <p class="meta">{{ $feature.Date.Format "2006-01-02" }}{{ with $feature.Params.tags }} · {{ index . 0 | title }}{{ end }}</p>
+      <h2><a href="{{ $feature.RelPermalink }}">{{ $feature.Title }}</a></h2>
+      <p>{{ with $feature.Params.summary }}{{ . | plainify | truncate 220 }}{{ else }}{{ $feature.Summary | plainify | truncate 220 }}{{ end }}</p>
+      <a class="btn primary" href="{{ $feature.RelPermalink }}">Read the story →</a>
+    </div>
+    <div class="visual"></div>
+  </div>
+  {{ end }}
+
+  {{ $byYear := dict }}
+  {{ range $rest }}
+    {{ $y := .Date.Format "2006" }}
+    {{ $arr := index $byYear $y | default slice }}
+    {{ $arr = $arr | append . }}
+    {{ $byYear = merge $byYear (dict $y $arr) }}
+  {{ end }}
+  {{ $years := slice }}
+  {{ range $y, $_ := $byYear }}{{ $years = $years | append $y }}{{ end }}
+  {{ $years = sort $years "value" "desc" }}
+
+  {{ range $years }}
+    {{ $yr := . }}
+    {{ $items := index $byYear $yr }}
+    <div class="year-h"><h2>{{ $yr }}</h2><span class="count">{{ len $items }} {{ if eq (len $items) 1 }}post{{ else }}posts{{ end }}</span></div>
+    <div class="news-grid">
+      {{ range $items }}
+      <article>
+        <span class="meta">{{ .Date.Format "Jan 2" }}{{ with .Params.tags }} · {{ index . 0 | title }}{{ end }}</span>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p>{{ with .Params.summary }}{{ . | plainify | truncate 140 }}{{ else }}{{ .Summary | plainify | truncate 140 }}{{ end }}</p>
+        <a class="read" href="{{ .RelPermalink }}">Read →</a>
+      </article>
+      {{ end }}
+    </div>
+  {{ end }}
+</div>
+{{ end }}

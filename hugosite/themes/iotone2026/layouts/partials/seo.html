@@ -1,0 +1,43 @@
+{{- $isHome := eq .Kind "home" -}}
+{{- $title := cond $isHome .Site.Title (printf "%s — %s" .Title .Site.Title) -}}
+{{- $desc := "" -}}
+{{- with .Description -}}{{ $desc = . }}
+{{- else -}}
+  {{- with .Params.summary -}}{{ $desc = . }}
+  {{- else -}}
+    {{- if $isHome -}}{{ $desc = .Site.Params.description }}
+    {{- else -}}{{ $desc = .Summary | plainify | truncate 200 }}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $ogType := cond (eq .Section "news") "article" "website" -}}
+{{- $defaultOG := "images/full/iotone_logo_v1d.png" | absURL -}}
+{{- $ogImage := $defaultOG -}}
+{{- with .Params.og_image -}}{{ $ogImage = . | absURL }}{{- end -}}
+
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc }}">
+{{ with .Site.Params.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
+<meta name="author" content="{{ .Site.Params.author | default "IoTone, Inc." }}">
+
+{{/* Open Graph */}}
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:type" content="{{ $ogType }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ $ogImage }}">
+<meta property="og:locale" content="{{ .Site.LanguageCode | default "en_US" | replaceRE "-" "_" }}">
+{{ if eq .Section "news" }}
+<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+{{ if .Lastmod }}<meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
+{{ range .Params.tags }}<meta property="article:tag" content="{{ . }}">
+{{ end }}
+{{ end }}
+
+{{/* Twitter Card */}}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $desc }}">
+<meta name="twitter:image" content="{{ $ogImage }}">
+{{ with .Site.Params.twitter }}<meta name="twitter:site" content="{{ . }}">{{ end }}

@@ -1,0 +1,50 @@
+{{ define "main" }}
+{{- $featured := where .Site.RegularPages "Section" "projects" -}}
+{{- $featured = where $featured "Params.featured" true -}}
+{{- $featured = $featured.ByWeight -}}
+{{- $featured = first 6 $featured -}}
+
+<section class="hero page" id="hero">
+  <div class="inner">
+    <img class="logo-mark" src="{{ "images/thumbs/iotone_logo_v1d250x250.png" | absURL }}" alt="IoTone, Inc.">
+    <p class="eyebrow">{{ .Params.eyebrow | default "Open-source studio · est. 2014 · PDX + Fukuoka" }}</p>
+    <h1>{{ .Params.headline_html | default .Title | safeHTML }}</h1>
+    <p class="lede">{{ .Params.lede | default .Description | safeHTML }}</p>
+    <div class="cta-row">
+      <a class="btn primary" href="#work">{{ .Params.cta_primary | default "See the work →" }}</a>
+      <a class="btn ghost" href="{{ "/contact/" | relURL }}">{{ .Params.cta_secondary | default "Start a project" }}</a>
+    </div>
+  </div>
+</section>
+
+<div class="page" id="work">
+  <div class="section-h">
+    <h2>{{ .Params.work_heading | default "Selected work" }}</h2>
+    <a class="all" href="{{ "/projects/" | relURL }}">All projects →</a>
+  </div>
+
+  <div class="showcase">
+    {{ range $i, $p := $featured }}
+      {{ if eq $i 0 }}{{ $p.Scratch.Set "tall" true }}{{ end }}
+      {{ partial "project-card.html" $p }}
+    {{ end }}
+  </div>
+
+  <div class="section-h">
+    <h2>{{ .Params.news_heading | default "News" }}</h2>
+    <a class="all" href="{{ "/news/" | relURL }}">Archive →</a>
+  </div>
+  {{ partial "news-strip.html" . }}
+
+  <section class="about" id="about">
+    <div>
+      {{ with .Content }}{{ . }}{{ end }}
+    </div>
+    <div class="stats">
+      {{ range .Site.Params.stats }}
+      <div class="stat"><span class="num">{{ .num }}</span><span class="label">{{ .label }}</span></div>
+      {{ end }}
+    </div>
+  </section>
+</div>
+{{ end }}

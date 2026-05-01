@@ -1,0 +1,12 @@
+name = "IoTone 2026"
+license = "MIT"
+licenselink = "https://github.com/IoTone/wwwdotiotonedotco/blob/main/LICENSE"
+description = "Custom Hugo theme for IoTone, Inc. (iotone.co) — 2026 refresh. Spatial / XR studio aesthetic: light + airy, gradient accents, magazine-style news, project showcase."
+homepage = "https://iotone.co/"
+tags = ["business", "studio", "portfolio", "xr", "spatial", "iot", "open-source"]
+features = ["responsive", "seo", "open-graph", "json-ld", "rss", "sitemap"]
+min_version = "0.110.0"
+
+[author]
+  name = "David J. Kordsmeier / IoTone, Inc."
+  homepage = "https://iotone.co/"

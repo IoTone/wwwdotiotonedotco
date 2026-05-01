@@ -1,0 +1,34 @@
+{{ define "main" }}
+{{- $kicker := "" -}}
+{{- with .Params.tags -}}{{ $kicker = index . 0 | title }}{{- end -}}
+<article class="post">
+  {{ with $kicker }}<span class="pill">{{ . }} · {{ $.Date.Format "2006" }}</span>{{ end }}
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.summary }}<p class="lede">{{ . | safeHTML }}</p>{{ end }}
+  <p class="meta">
+    <a href="{{ "/news/" | relURL }}">News</a> ·
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+    {{ with .ReadingTime }} · {{ . }} min read{{ end }}
+  </p>
+  {{ if .Params.hero_image }}
+  <div class="visual"><img src="{{ .Params.hero_image | absURL }}" alt="{{ .Title }}"></div>
+  {{ else }}
+  <div class="visual"></div>
+  {{ end }}
+  <div class="content">
+    {{ .Content }}
+  </div>
+
+  {{ with .Params.tags }}
+  <div class="tags">
+    {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+  </div>
+  {{ end }}
+
+  {{ with .Params.source_url }}
+  <div class="source-strip">
+    Source: <a href="{{ . }}" rel="noopener">{{ . }}</a>
+  </div>
+  {{ end }}
+</article>
+{{ end }}

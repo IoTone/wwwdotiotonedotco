@@ -1,32 +1,86 @@
-# Site settings
+# IoTone, Inc. — Hugo site config (2026 refresh)
 baseurl = "/"
 languageCode = "en-us"
-title = "IoTone, Inc. Home"
-theme = "hugrid"
-# Enter your tracking code to enable Google Analytics
-googleAnalytics = "UA-70840299-1"
+title = "IoTone, Inc."
+theme = "iotone2026"
+
+# Google Analytics: the prior UA-70840299-1 tag was retired with Universal Analytics
+# in July 2023. To re-enable, create a GA4 property and configure here:
+# [services.googleAnalytics]
+#   ID = "G-XXXXXXXXXX"
 
 contentdir = "content"
 datadir = "data"
 layoutdir = "layouts"
 publishdir = "public"
 
+enableRobotsTXT = true
+
+# Allow inline HTML in markdown (used by project summaries/headlines + contact channels)
+[markup.goldmark.renderer]
+  unsafe = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
 [params]
-    # Meta
-    title = "IoTone, Inc."
-    subtitle = "Unified Device Intelligence - IoTone is an Open Source focused software and hardware company"
-    author = "IoTone, Inc."
-    description = "IoTone, Inc., Home page"
-    keywords = "IoT, Device, Embedded, Protocol, AI, MachineLearning, VR, AR, Augmented Reality, Virtual Reality, NFC, Android, iOS, Hyperlocal"
+  # SEO meta
+  description = "IoTone, Inc. is an open-source studio for spatial, wearable, and ambient computing — Snap Spectacles libraries (Polynode — Lensfest 2nd Place 2026), IoT runtimes (Project MAG*Net), wearable hardware (Shashin GO, CES 2024), and Meshtastic-for-Japan (offlinesns). Founded 2014 in Silicon Valley; today headquartered in PDX with operations in Fukuoka, Japan."
+  keywords = "IoTone, Snap Spectacles, AR, XR, Spatial Computing, Polynode, Lensfest, IoT, Matter, Zigbee, Thread, Meshtastic, Wearable, Open Source, Portland, PDX, Fukuoka, IoTone Japan"
+  author = "IoTone, Inc."
+  founded = "2014"
 
-    # Body background color
-    bodybgcolor = "#f9f9f9"
+  # Brand
+  brand_text = "IoTone"
+  tagline = "Open source for spatial, wearable, and IoT. PDX + Fukuoka."
 
-    # Preview container button text
-    buttontext = "GO"
+  # Contact
+  email = "info@iotone.io"
+  email_sales = "sales@iotone.io"
+  phone = "+1 (415) 644-8938"
+  studios = "PDX (Portland, OR) · Fukuoka, Japan."
 
-    # Footer text
-    footertext = "Copyright &copy; IoTone, Inc. 2014-2025. For Sponsorship of Open Source, <a href='mailto:info@iotone.io'>Contact Us</a>"
+  # Social
+  github_url = "https://github.com/IoTone"
+  linkedin_url = "https://www.linkedin.com/company/iotone-inc/"
 
-    # add extra-css
-    # custom_css = ['css/extra1.css', 'css/extra2.css']
+  # Footer (the "Copyright (c) IoTone, Inc. 2014-<current year>." prefix is rendered dynamically)
+  footertext = "For sponsorship of open source, <a href='mailto:info@iotone.io'>contact us</a>."
+
+  # Home page stats block
+  [[params.stats]]
+    num = "2014"
+    label = "founded"
+  [[params.stats]]
+    num = "40+"
+    label = "OSS repos"
+  [[params.stats]]
+    num = "2026"
+    label = "Lensfest 2nd Place"
+  [[params.stats]]
+    num = "2"
+    label = "offices · PDX / Fukuoka"
+
+[menu]
+  [[menu.main]]
+    name = "Work"
+    url = "/projects/"
+    weight = 10
+  [[menu.main]]
+    name = "News"
+    url = "/news/"
+    weight = 20
+  [[menu.main]]
+    name = "Studio"
+    url = "/#about"
+    weight = 30
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 40

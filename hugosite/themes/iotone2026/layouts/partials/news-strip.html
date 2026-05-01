@@ -1,0 +1,14 @@
+{{- /* Renders 3 most recent news posts as a strip. Context: site root or any page. */ -}}
+{{- $news := where .Site.RegularPages "Section" "news" -}}
+{{- $news = $news.ByDate.Reverse -}}
+{{- $news = first 3 $news -}}
+<div class="news-strip">
+  {{ range $i, $p := $news }}
+  <article{{ if eq $i 0 }} class="lead"{{ end }}>
+    <span class="date">{{ $p.Date.Format "2006-01-02" }}{{ with $p.Params.tags }} · {{ index . 0 | title }}{{ end }}</span>
+    <h3><a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></h3>
+    <p>{{ with $p.Params.summary }}{{ . | plainify | truncate 160 }}{{ else }}{{ $p.Summary | plainify | truncate 160 }}{{ end }}</p>
+    <a class="read-more" href="{{ $p.RelPermalink }}">Read{{ if eq $i 0 }} the story{{ end }} →</a>
+  </article>
+  {{ end }}
+</div>
