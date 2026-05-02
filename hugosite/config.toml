@@ -31,7 +31,7 @@ enableRobotsTXT = true
 
 [params]
   # SEO meta
-  description = "IoTone, Inc. is an open-source studio for spatial, wearable, and ambient computing — Snap Spectacles libraries (Polynode — Lensfest 2nd Place 2026), IoT runtimes (Project MAG*Net), wearable hardware (Shashin GO, CES 2024), and Meshtastic-for-Japan (offlinesns). Founded 2014 in Silicon Valley; today headquartered in PDX with operations in Fukuoka, Japan."
+  description = "IoTone, Inc. publishes open-source software and hardware: Snap Spectacles libraries (Polynode — Lensfest 2nd Place 2026), IoT runtimes (Project MAG*Net for Matter / Zigbee / Thread), DIY wearable hardware (Shashin GO, demoed at CES 2024), and Meshtastic for Japan (offlinesns). 40+ public repositories. Founded 2014 in Silicon Valley; today headquartered in PDX with a sister entity in Fukuoka, Japan."
   keywords = "IoTone, Snap Spectacles, AR, XR, Spatial Computing, Polynode, Lensfest, IoT, Matter, Zigbee, Thread, Meshtastic, Wearable, Open Source, Portland, PDX, Fukuoka, IoTone Japan"
   author = "IoTone, Inc."
   founded = "2014"

@@ -7,12 +7,12 @@
 <section class="hero page" id="hero">
   <div class="inner">
     <img class="logo-mark" src="{{ "images/thumbs/iotone_logo_v1d250x250.png" | absURL }}" alt="IoTone, Inc.">
-    <p class="eyebrow">{{ .Params.eyebrow | default "Open-source studio · est. 2014 · PDX + Fukuoka" }}</p>
+    <p class="eyebrow">{{ .Params.eyebrow | default "Open source · est. 2014 · PDX + Fukuoka" }}</p>
     <h1>{{ .Params.headline_html | default .Title | safeHTML }}</h1>
     <p class="lede">{{ .Params.lede | default .Description | safeHTML }}</p>
     <div class="cta-row">
-      <a class="btn primary" href="#work">{{ .Params.cta_primary | default "See the work →" }}</a>
-      <a class="btn ghost" href="{{ "/contact/" | relURL }}">{{ .Params.cta_secondary | default "Start a project" }}</a>
+      <a class="btn primary" href="#work">{{ .Params.cta_primary | default "Browse the projects →" }}</a>
+      <a class="btn ghost" href="{{ .Params.cta_secondary_href | default (relURL "/contact/") }}"{{ if hasPrefix (.Params.cta_secondary_href | default "") "http" }} rel="noopener"{{ end }}>{{ .Params.cta_secondary | default "Get in touch" }}</a>
     </div>
   </div>
 </section>

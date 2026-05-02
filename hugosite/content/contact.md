@@ -1,18 +1,11 @@
 ---
 title: "Contact"
-description: "Reach IoTone, Inc. — PDX + Fukuoka. Open-source sponsorship, partnerships, IoTone Japan client work."
+description: "Reach IoTone, Inc. — PDX + Fukuoka. Project questions, open-source sponsorship, contributions, and security disclosures."
 eyebrow: "Get in touch"
 type: "contact"
 layout: "contact"
 ---
 
-We work on AR / XR product, IoT platforms, OSS sponsorship, and from-scratch hardware. If we can't help with what you have in mind, we usually know who can.
+For questions about any of our open-source projects, sponsorship inquiries, contributions, or security disclosures — drop a note. Most projects also take issues and pull requests directly on [github.com/IoTone](https://github.com/IoTone).
 
-| | |
-| --- | --- |
-| **Email** | [info@iotone.io](mailto:info@iotone.io) |
-| **Sales** | [sales@iotone.io](mailto:sales@iotone.io) |
-| **Phone** | [+1 (415) 644-8938](tel:+14156448938) |
-| **GitHub** | [github.com/IoTone](https://github.com/IoTone) |
-| **LinkedIn** | [linkedin.com/company/iotone-inc](https://www.linkedin.com/company/iotone-inc/) |
-| **Studios** | PDX (Portland, OR) · Fukuoka, Japan |
+For commercial work in Japan, see IoTone Japan.
