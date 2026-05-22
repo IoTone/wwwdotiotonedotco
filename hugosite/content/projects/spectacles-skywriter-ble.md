@@ -9,11 +9,11 @@ github_url: "https://github.com/IoTone/Spectacles-SkywriterBLE"
 weight: 15
 featured: true
 hero_visual: "alt-2"
-pill: "AR input"
-related_news: "/news/2026-04-08-spectacles-skywriter-ble/"
+pill: "AR input · Lensfest 3rd Place"
+related_news: "/news/2026-04-26-skywriterble-wins-3rd-place-lensfest-april-2026/"
 related_projects:
   - "spectacles-polynode"
-summary: "BLE HID keyboard for Snap Spectacles, with a prototype word processor on top. Solves typing in AR."
+summary: "BLE HID keyboard for Snap Spectacles, with a distraction-free XR word processor on top. 3rd Place OSS Prize, Lensfest April 2026."
 tags: ["spectacles", "ar", "ble", "hid", "keyboard"]
 ---
 
@@ -27,4 +27,4 @@ Spatial typing remains an open problem on every AR platform. Voice has limits (p
 
 ## Status
 
-Active. Pair-once-and-go works; the word processor demo is the proof.
+Active. Pair-once-and-go works; the word processor demo is the proof. Awarded **3rd Place OSS Prize** at the [Lensfest April 2026 Spectacles Community Challenge](/news/2026-04-26-skywriterble-wins-3rd-place-lensfest-april-2026/).
