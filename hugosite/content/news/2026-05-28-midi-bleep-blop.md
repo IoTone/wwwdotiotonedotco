@@ -5,6 +5,7 @@ draft: false
 tags: ["release", "spectacles", "midi", "music", "websocket", "lensfest", "ar"]
 summary: "A MIDI library and bridge so you can perform on live musical instruments from a Snap Spectacles lens — now with a Tester Lens you can try yourself. An IoTone, Inc. #Lensfest May 2026 OSS drop."
 source_url: "https://www.reddit.com/r/Spectacles/comments/1tqsdnw/lensdrop_midi_bleep_blop_a_midi_library_and/"
+hero_image: "/images/news/midi-bleep-blop.png"
 repo_url: "https://github.com/IoTone/MIDIBleepBlop"
 video_url: "https://youtu.be/FY7x7KbuUoQ"
 related_projects:

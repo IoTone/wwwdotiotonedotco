@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mqtt on IoTone, Inc.</title><link>/tags/mqtt/</link><description>Recent content in Mqtt on IoTone, Inc.</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 29 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/mqtt/index.xml" rel="self" type="application/rss+xml"/><item><title>Project MAG*Net</title><link>/projects/project-magnet/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>/projects/project-magnet/</guid><description>Distributed IoT data sync &amp;amp; control across Matter, Zigbee, Thread, HomeKit, BLE, and Wi-Fi. ESP32 firmware + C++ runtime.</description></item><item><title>libMQTTSpecs — MQTT for Snap Spectacles</title><link>/news/2025-04-29-libmqtt-specs/</link><pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate><guid>/news/2025-04-29-libmqtt-specs/</guid><description>An MQTT library (TypeScript port from JS) for Snap Spectacles.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mqtt on IoTone, Inc.</title>
+    <link>/tags/mqtt/</link>
+    <description>Recent content in Mqtt on IoTone, Inc.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/mqtt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project MAG*Net</title>
+      <link>/projects/project-magnet/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/projects/project-magnet/</guid>
+      <description>Distributed IoT data sync &amp;amp; control across Matter, Zigbee, Thread, HomeKit, BLE, and Wi-Fi. ESP32 firmware + C++ runtime.</description>
+    </item>
+    <item>
+      <title>libMQTTSpecs — MQTT for Snap Spectacles</title>
+      <link>/news/2025-04-29-libmqtt-specs/</link>
+      <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/news/2025-04-29-libmqtt-specs/</guid>
+      <description>An MQTT library (TypeScript port from JS) for Snap Spectacles.</description>
+    </item>
+  </channel>
+</rss>

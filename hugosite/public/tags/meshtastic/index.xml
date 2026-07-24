@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Meshtastic on IoTone, Inc.</title><link>/tags/meshtastic/</link><description>Recent content in Meshtastic on IoTone, Inc.</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 02 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/meshtastic/index.xml" rel="self" type="application/rss+xml"/><item><title>offlinesns (Meshtastic Japan)</title><link>/projects/offlinesns/</link><pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate><guid>/projects/offlinesns/</guid><description>Community initiative bringing Meshtastic to Japan, started in Fukuoka. LoRa, Rust, and off-grid social.</description></item><item><title>offlinesns: bringing Meshtastic to Japan, starting in Fukuoka</title><link>/news/2025-07-02-offlinesns/</link><pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate><guid>/news/2025-07-02-offlinesns/</guid><description>Community initiative to bring Meshtastic to Japan, starting in Fukuoka.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meshtastic on IoTone, Inc.</title>
+    <link>/tags/meshtastic/</link>
+    <description>Recent content in Meshtastic on IoTone, Inc.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/meshtastic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>offlinesns (Meshtastic Japan)</title>
+      <link>/projects/offlinesns/</link>
+      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>/projects/offlinesns/</guid>
+      <description>Community initiative bringing Meshtastic to Japan, started in Fukuoka. LoRa, Rust, and off-grid social.</description>
+    </item>
+    <item>
+      <title>offlinesns: bringing Meshtastic to Japan, starting in Fukuoka</title>
+      <link>/news/2025-07-02-offlinesns/</link>
+      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>/news/2025-07-02-offlinesns/</guid>
+      <description>Community initiative to bring Meshtastic to Japan, starting in Fukuoka.</description>
+    </item>
+  </channel>
+</rss>

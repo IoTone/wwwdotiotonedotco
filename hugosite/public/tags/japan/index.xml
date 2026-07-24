@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Japan on IoTone, Inc.</title><link>/tags/japan/</link><description>Recent content in Japan on IoTone, Inc.</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 17 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="/tags/japan/index.xml" rel="self" type="application/rss+xml"/><item><title>offlinesns (Meshtastic Japan)</title><link>/projects/offlinesns/</link><pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate><guid>/projects/offlinesns/</guid><description>Community initiative bringing Meshtastic to Japan, started in Fukuoka. LoRa, Rust, and off-grid social.</description></item><item><title>RockeTone</title><link>/projects/rocketone/</link><pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate><guid>/projects/rocketone/</guid><description>IoT-instrumented papercraft and model rockets, run out of IoTone Japan. プロジェクトは紙飛行機と小型ロケットをIOTによって最新化する。</description></item><item><title>fukuokaxr.org — a home for Fukuoka's XR community</title><link>/news/2026-05-17-fukuokaxr/</link><pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate><guid>/news/2026-05-17-fukuokaxr/</guid><description>IoTone Japan stood up fukuokaxr.org, a bilingual (JA/EN) landing page for Fukuoka&amp;rsquo;s XR / AR / VR community — the standing home behind events like XR VisionDevCamp Fukuoka.</description></item><item><title>offlinesns: bringing Meshtastic to Japan, starting in Fukuoka</title><link>/news/2025-07-02-offlinesns/</link><pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate><guid>/news/2025-07-02-offlinesns/</guid><description>Community initiative to bring Meshtastic to Japan, starting in Fukuoka.</description></item><item><title>hugo-gwatt-japan-biz-theme + Awesome Design Thinking EN/JA</title><link>/news/2024-10-02-hugo-gwatt-japan-biz-theme/</link><pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate><guid>/news/2024-10-02-hugo-gwatt-japan-biz-theme/</guid><description>A bilingual JA/EN business Hugo theme, plus a curated reading list on design thinking.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Japan on IoTone, Inc.</title>
+    <link>/tags/japan/</link>
+    <description>Recent content in Japan on IoTone, Inc.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/japan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>offlinesns (Meshtastic Japan)</title>
+      <link>/projects/offlinesns/</link>
+      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>/projects/offlinesns/</guid>
+      <description>Community initiative bringing Meshtastic to Japan, started in Fukuoka. LoRa, Rust, and off-grid social.</description>
+    </item>
+    <item>
+      <title>RockeTone</title>
+      <link>/projects/rocketone/</link>
+      <pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>/projects/rocketone/</guid>
+      <description>IoT-instrumented papercraft and model rockets, run out of IoTone Japan. プロジェクトは紙飛行機と小型ロケットをIOTによって最新化する。</description>
+    </item>
+    <item>
+      <title>fukuokaxr.org — a home for Fukuoka&#39;s XR community</title>
+      <link>/news/2026-05-17-fukuokaxr/</link>
+      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
+      <guid>/news/2026-05-17-fukuokaxr/</guid>
+      <description>IoTone Japan stood up fukuokaxr.org, a bilingual (JA/EN) landing page for Fukuoka&amp;rsquo;s XR / AR / VR community — the standing home behind events like XR VisionDevCamp Fukuoka.</description>
+    </item>
+    <item>
+      <title>offlinesns: bringing Meshtastic to Japan, starting in Fukuoka</title>
+      <link>/news/2025-07-02-offlinesns/</link>
+      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>/news/2025-07-02-offlinesns/</guid>
+      <description>Community initiative to bring Meshtastic to Japan, starting in Fukuoka.</description>
+    </item>
+    <item>
+      <title>hugo-gwatt-japan-biz-theme &#43; Awesome Design Thinking EN/JA</title>
+      <link>/news/2024-10-02-hugo-gwatt-japan-biz-theme/</link>
+      <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/news/2024-10-02-hugo-gwatt-japan-biz-theme/</guid>
+      <description>A bilingual JA/EN business Hugo theme, plus a curated reading list on design thinking.</description>
+    </item>
+  </channel>
+</rss>

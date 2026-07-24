@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Homekit on IoTone, Inc.</title><link>/tags/homekit/</link><description>Recent content in Homekit on IoTone, Inc.</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/homekit/index.xml" rel="self" type="application/rss+xml"/><item><title>Project MAG*Net</title><link>/projects/project-magnet/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>/projects/project-magnet/</guid><description>Distributed IoT data sync &amp;amp; control across Matter, Zigbee, Thread, HomeKit, BLE, and Wi-Fi. ESP32 firmware + C++ runtime.</description></item><item><title>IoToneKit</title><link>/projects/iotonekit/</link><pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate><guid>/projects/iotonekit/</guid><description>An all-in-one starter kit for low-cost MPU-based IoT solutions on ARMv5 / ARMv7 Linux, with MFi and Zigbee integration.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homekit on IoTone, Inc.</title>
+    <link>/tags/homekit/</link>
+    <description>Recent content in Homekit on IoTone, Inc.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/homekit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project MAG*Net</title>
+      <link>/projects/project-magnet/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/projects/project-magnet/</guid>
+      <description>Distributed IoT data sync &amp;amp; control across Matter, Zigbee, Thread, HomeKit, BLE, and Wi-Fi. ESP32 firmware + C++ runtime.</description>
+    </item>
+    <item>
+      <title>IoToneKit</title>
+      <link>/projects/iotonekit/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/projects/iotonekit/</guid>
+      <description>An all-in-one starter kit for low-cost MPU-based IoT solutions on ARMv5 / ARMv7 Linux, with MFi and Zigbee integration.</description>
+    </item>
+  </channel>
+</rss>

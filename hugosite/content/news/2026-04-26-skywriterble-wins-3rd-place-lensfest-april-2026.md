@@ -5,6 +5,7 @@ draft: false
 tags: ["award", "spectacles", "skywriterble", "oss", "lensfest"]
 summary: "Spectacles-SkywriterBLE — a BLE HID keyboard for Snap Spectacles with a distraction-free XR word processor on top — placed 3rd in the OSS category at Lensfest April 2026."
 source_url: "https://www.linkedin.com/pulse/iotone-inc-wins-3rd-place-oss-prize-skywriterble-lensfest-spectacles-aoyzc/"
+hero_image: "/images/news/skywriter.png"
 ---
 
 A share on one of IoTone, Inc.'s XR prototype projects turned into a Lensfest hackathon win this month. The April 2026 Lensfest Spectacles Community Challenge — run by [Lenslist](https://lenslist.co) and [Snap Inc.](https://snap.com) — awarded [Spectacles-SkywriterBLE](https://github.com/IoTone/Spectacles-SkywriterBLE) 3rd Place in the OSS category.

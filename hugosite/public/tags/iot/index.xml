@@ -1,1 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Iot on IoTone, Inc.</title><link>/tags/iot/</link><description>Recent content in Iot on IoTone, Inc.</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="/tags/iot/index.xml" rel="self" type="application/rss+xml"/><item><title>Project MAG*Net</title><link>/projects/project-magnet/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>/projects/project-magnet/</guid><description>Distributed IoT data sync &amp;amp; control across Matter, Zigbee, Thread, HomeKit, BLE, and Wi-Fi. ESP32 firmware + C++ runtime.</description></item><item><title>RockeTone</title><link>/projects/rocketone/</link><pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate><guid>/projects/rocketone/</guid><description>IoT-instrumented papercraft and model rockets, run out of IoTone Japan. プロジェクトは紙飛行機と小型ロケットをIOTによって最新化する。</description></item><item><title>OpenWR</title><link>/projects/openwr/</link><pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate><guid>/projects/openwr/</guid><description>An open-hardware reference platform for wearable IoT.</description></item><item><title>Industrial IoT / VR consulting</title><link>/projects/iot-vr-services/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>/projects/iot-vr-services/</guid><description>IoT protocol expertise across the device → mobile → cloud stack, in conjunction with VR digital-twin builds for industrial customers.</description></item><item><title>Blockchain-In-A-Box</title><link>/projects/blockchain-in-a-box/</link><pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate><guid>/projects/blockchain-in-a-box/</guid><description>A rapid-prototyping kit for enterprise blockchain solutions and Industrial / IoT blockchain dapps.</description></item><item><title>IoToneKit</title><link>/projects/iotonekit/</link><pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate><guid>/projects/iotonekit/</guid><description>An all-in-one starter kit for low-cost MPU-based IoT solutions on ARMv5 / ARMv7 Linux, with MFi and Zigbee integration.</description></item><item><title>Supporting "The WebXR of Things" at MeaningfulXR 2026</title><link>/news/2026-05-22-webxr-of-things-meaningfulxr-2026/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>/news/2026-05-22-webxr-of-things-meaningfulxr-2026/</guid><description>IoTone Japan submitted &amp;ldquo;The WebXR of Things&amp;rdquo; as a poster to MeaningfulXR 2026 (MXR26) — IoTone, Inc. is sponsoring the open-source reference design, released as part of Project MAG*Net.</description></item><item><title>Project MAG*Net launches: distributed IoT data sync for Matter / Zigbee / Thread</title><link>/news/2024-01-20-project-magnet/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>/news/2024-01-20-project-magnet/</guid><description>Project MAG*Net is an IoT data sync and control app, plus a distributed server for IoT data, across Matter, Zigbee, Thread, HomeKit, BLE, and Wi-Fi.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Iot on IoTone, Inc.</title>
+    <link>/tags/iot/</link>
+    <description>Recent content in Iot on IoTone, Inc.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/iot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project MAG*Net</title>
+      <link>/projects/project-magnet/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/projects/project-magnet/</guid>
+      <description>Distributed IoT data sync &amp;amp; control across Matter, Zigbee, Thread, HomeKit, BLE, and Wi-Fi. ESP32 firmware + C++ runtime.</description>
+    </item>
+    <item>
+      <title>RockeTone</title>
+      <link>/projects/rocketone/</link>
+      <pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>/projects/rocketone/</guid>
+      <description>IoT-instrumented papercraft and model rockets, run out of IoTone Japan. プロジェクトは紙飛行機と小型ロケットをIOTによって最新化する。</description>
+    </item>
+    <item>
+      <title>OpenWR</title>
+      <link>/projects/openwr/</link>
+      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>/projects/openwr/</guid>
+      <description>An open-hardware reference platform for wearable IoT.</description>
+    </item>
+    <item>
+      <title>Industrial IoT / VR consulting</title>
+      <link>/projects/iot-vr-services/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/projects/iot-vr-services/</guid>
+      <description>IoT protocol expertise across the device → mobile → cloud stack, in conjunction with VR digital-twin builds for industrial customers.</description>
+    </item>
+    <item>
+      <title>Blockchain-In-A-Box</title>
+      <link>/projects/blockchain-in-a-box/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/projects/blockchain-in-a-box/</guid>
+      <description>A rapid-prototyping kit for enterprise blockchain solutions and Industrial / IoT blockchain dapps.</description>
+    </item>
+    <item>
+      <title>IoToneKit</title>
+      <link>/projects/iotonekit/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/projects/iotonekit/</guid>
+      <description>An all-in-one starter kit for low-cost MPU-based IoT solutions on ARMv5 / ARMv7 Linux, with MFi and Zigbee integration.</description>
+    </item>
+    <item>
+      <title>Supporting &#34;The WebXR of Things&#34; at MeaningfulXR 2026</title>
+      <link>/news/2026-05-22-webxr-of-things-meaningfulxr-2026/</link>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <guid>/news/2026-05-22-webxr-of-things-meaningfulxr-2026/</guid>
+      <description>IoTone Japan submitted &amp;ldquo;The WebXR of Things&amp;rdquo; as a poster to MeaningfulXR 2026 (MXR26) — IoTone, Inc. is sponsoring the open-source reference design, released as part of Project MAG*Net.</description>
+    </item>
+    <item>
+      <title>Project MAG*Net launches: distributed IoT data sync for Matter / Zigbee / Thread</title>
+      <link>/news/2024-01-20-project-magnet/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/news/2024-01-20-project-magnet/</guid>
+      <description>Project MAG*Net is an IoT data sync and control app, plus a distributed server for IoT data, across Matter, Zigbee, Thread, HomeKit, BLE, and Wi-Fi.</description>
+    </item>
+  </channel>
+</rss>

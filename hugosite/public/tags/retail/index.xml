@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Retail on IoTone, Inc.</title><link>/tags/retail/</link><description>Recent content in Retail on IoTone, Inc.</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="/tags/retail/index.xml" rel="self" type="application/rss+xml"/><item><title>FootTrackr</title><link>/projects/foottrackr/</link><pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate><guid>/projects/foottrackr/</guid><description>Privacy-respecting RFID-based foot-traffic tracking for events and retail. Zero enrollment.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Retail on IoTone, Inc.</title>
+    <link>/tags/retail/</link>
+    <description>Recent content in Retail on IoTone, Inc.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/retail/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FootTrackr</title>
+      <link>/projects/foottrackr/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/projects/foottrackr/</guid>
+      <description>Privacy-respecting RFID-based foot-traffic tracking for events and retail. Zero enrollment.</description>
+    </item>
+  </channel>
+</rss>

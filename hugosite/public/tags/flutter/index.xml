@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Flutter on IoTone, Inc.</title><link>/tags/flutter/</link><description>Recent content in Flutter on IoTone, Inc.</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 05 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/flutter/index.xml" rel="self" type="application/rss+xml"/><item><title>Flutter Responsive Mobile App Starter (IoTone Japan)</title><link>/news/2024-10-05-flutter-responsive-mobile-starter/</link><pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate><guid>/news/2024-10-05-flutter-responsive-mobile-starter/</guid><description>Boilerplate for app-store-ready Flutter mobile apps; used by IoTone Japan as a client training tool.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flutter on IoTone, Inc.</title>
+    <link>/tags/flutter/</link>
+    <description>Recent content in Flutter on IoTone, Inc.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flutter Responsive Mobile App Starter (IoTone Japan)</title>
+      <link>/news/2024-10-05-flutter-responsive-mobile-starter/</link>
+      <pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/news/2024-10-05-flutter-responsive-mobile-starter/</guid>
+      <description>Boilerplate for app-store-ready Flutter mobile apps; used by IoTone Japan as a client training tool.</description>
+    </item>
+  </channel>
+</rss>

@@ -5,6 +5,7 @@ draft: false
 tags: ["award", "spectacles", "polynode", "oss"]
 summary: "IoTone, Inc.'s Spectacles-polynode — a backfill of HTML5 web APIs for Snap Spectacles — won the 2nd Place OSS Prize at Lensfest March 2026, run by Lenslist and Snap Inc."
 source_url: "https://www.linkedin.com/pulse/iotone-inc-wins-2nd-place-oss-prize-polynode-lensfest-spectacles-7n3rc"
+hero_image: "/images/news/polynode.png"
 ---
 
 A quick note to give a little hurrah for #OSS, and to announce that we were just awarded a 2nd place prize among a group of talented developers and submissions in the March 2026 Lensfest. Special thanks to [Lenslist](https://lenslist.co) and [Snap Inc.](https://snap.com) for running the challenge.

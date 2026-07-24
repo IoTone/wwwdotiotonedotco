@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Starter on IoTone, Inc.</title><link>/tags/starter/</link><description>Recent content in Starter on IoTone, Inc.</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 19 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="/tags/starter/index.xml" rel="self" type="application/rss+xml"/><item><title>gsplats to WebXR</title><link>/projects/gsplats-to-webxr/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>/projects/gsplats-to-webxr/</guid><description>A minimal starter for getting Gaussian splats into WebXR — Spark rendering 3DGS over Three.js, served over HTTPS so it drops straight into a headset.</description></item><item><title>BowleraramaXR (Godot)</title><link>/projects/bowlerama-xr-godot/</link><pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate><guid>/projects/bowlerama-xr-godot/</guid><description>A synthwave-themed bowling alley and a working Godot XR starter for Android XR and Meta Quest 3 — with the build steps that the official docs skip.</description></item><item><title>Snap Spectacles Interaction Kit Samples</title><link>/projects/snap-spectacles-ik-samples/</link><pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate><guid>/projects/snap-spectacles-ik-samples/</guid><description>Snap Spectacles Interaction Kit Samples designed as a building block for new lenses.</description></item><item><title>BowleraramaXR — a Godot XR bowling starter for Quest 3 and Android XR</title><link>/news/2026-06-19-bowlerama-xr-godot/</link><pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate><guid>/news/2026-06-19-bowlerama-xr-godot/</guid><description>A synthwave-themed bowling alley doubling as a working Godot XR starter for Android XR and Meta Quest 3 — packaging the build-and-deploy steps the official docs skip.</description></item><item><title>gsplats-to-webxr — a starter for Gaussian splats in a headset</title><link>/news/2026-06-04-gsplats-to-webxr/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>/news/2026-06-04-gsplats-to-webxr/</guid><description>A minimal starter that gets Gaussian splats into WebXR — Spark rendering 3DGS over Three.js, served over HTTPS so it drops straight into a headset.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Starter on IoTone, Inc.</title>
+    <link>/tags/starter/</link>
+    <description>Recent content in Starter on IoTone, Inc.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/starter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>gsplats to WebXR</title>
+      <link>/projects/gsplats-to-webxr/</link>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/projects/gsplats-to-webxr/</guid>
+      <description>A minimal starter for getting Gaussian splats into WebXR — Spark rendering 3DGS over Three.js, served over HTTPS so it drops straight into a headset.</description>
+    </item>
+    <item>
+      <title>BowleraramaXR (Godot)</title>
+      <link>/projects/bowlerama-xr-godot/</link>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/projects/bowlerama-xr-godot/</guid>
+      <description>A synthwave-themed bowling alley and a working Godot XR starter for Android XR and Meta Quest 3 — with the build steps that the official docs skip.</description>
+    </item>
+    <item>
+      <title>Snap Spectacles Interaction Kit Samples</title>
+      <link>/projects/snap-spectacles-ik-samples/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/projects/snap-spectacles-ik-samples/</guid>
+      <description>Snap Spectacles Interaction Kit Samples designed as a building block for new lenses.</description>
+    </item>
+    <item>
+      <title>BowleraramaXR — a Godot XR bowling starter for Quest 3 and Android XR</title>
+      <link>/news/2026-06-19-bowlerama-xr-godot/</link>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/news/2026-06-19-bowlerama-xr-godot/</guid>
+      <description>A synthwave-themed bowling alley doubling as a working Godot XR starter for Android XR and Meta Quest 3 — packaging the build-and-deploy steps the official docs skip.</description>
+    </item>
+    <item>
+      <title>gsplats-to-webxr — a starter for Gaussian splats in a headset</title>
+      <link>/news/2026-06-04-gsplats-to-webxr/</link>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/news/2026-06-04-gsplats-to-webxr/</guid>
+      <description>A minimal starter that gets Gaussian splats into WebXR — Spark rendering 3DGS over Three.js, served over HTTPS so it drops straight into a headset.</description>
+    </item>
+  </channel>
+</rss>

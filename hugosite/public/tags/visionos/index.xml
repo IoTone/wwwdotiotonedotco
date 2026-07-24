@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Visionos on IoTone, Inc.</title><link>/tags/visionos/</link><description>Recent content in Visionos on IoTone, Inc.</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 12 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/visionos/index.xml" rel="self" type="application/rss+xml"/><item><title>HelloSDL3: SDL3 starter for Xcode, iOS, and visionOS</title><link>/news/2025-04-12-hello-sdl3/</link><pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate><guid>/news/2025-04-12-hello-sdl3/</guid><description>An SDL3 starter scaffold for Xcode / iOS / visionOS projects.</description></item><item><title>VisionDevCamp Fukuoka announced</title><link>/news/2025-02-26-visiondevcamp-fukuoka/</link><pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate><guid>/news/2025-02-26-visiondevcamp-fukuoka/</guid><description>Spatial computing hackathon set for Fukuoka.</description></item><item><title>FlatworldSpaceWallet: spatially-aware Polygon wallet for visionOS</title><link>/news/2024-04-10-flatworld-space-wallet/</link><pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate><guid>/news/2024-04-10-flatworld-space-wallet/</guid><description>A spatially aware wallet for transacting on the Polygon network from VR / visionOS / Vision Pro.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visionos on IoTone, Inc.</title>
+    <link>/tags/visionos/</link>
+    <description>Recent content in Visionos on IoTone, Inc.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/visionos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HelloSDL3: SDL3 starter for Xcode, iOS, and visionOS</title>
+      <link>/news/2025-04-12-hello-sdl3/</link>
+      <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/news/2025-04-12-hello-sdl3/</guid>
+      <description>An SDL3 starter scaffold for Xcode / iOS / visionOS projects.</description>
+    </item>
+    <item>
+      <title>VisionDevCamp Fukuoka announced</title>
+      <link>/news/2025-02-26-visiondevcamp-fukuoka/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>/news/2025-02-26-visiondevcamp-fukuoka/</guid>
+      <description>Spatial computing hackathon set for Fukuoka.</description>
+    </item>
+    <item>
+      <title>FlatworldSpaceWallet: spatially-aware Polygon wallet for visionOS</title>
+      <link>/news/2024-04-10-flatworld-space-wallet/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>/news/2024-04-10-flatworld-space-wallet/</guid>
+      <description>A spatially aware wallet for transacting on the Polygon network from VR / visionOS / Vision Pro.</description>
+    </item>
+  </channel>
+</rss>

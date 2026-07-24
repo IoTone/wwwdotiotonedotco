@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Spatial on IoTone, Inc.</title><link>/tags/spatial/</link><description>Recent content in Spatial on IoTone, Inc.</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 18 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/spatial/index.xml" rel="self" type="application/rss+xml"/><item><title>Awesome Spatial Design</title><link>/news/2025-04-18-awesome-spatial-design/</link><pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate><guid>/news/2025-04-18-awesome-spatial-design/</guid><description>A curated list of spatial-design tools, talks, processes, themes, idea boards, and sample apps.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spatial on IoTone, Inc.</title>
+    <link>/tags/spatial/</link>
+    <description>Recent content in Spatial on IoTone, Inc.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/spatial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Awesome Spatial Design</title>
+      <link>/news/2025-04-18-awesome-spatial-design/</link>
+      <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/news/2025-04-18-awesome-spatial-design/</guid>
+      <description>A curated list of spatial-design tools, talks, processes, themes, idea boards, and sample apps.</description>
+    </item>
+  </channel>
+</rss>

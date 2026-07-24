@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Experiment on IoTone, Inc.</title><link>/tags/experiment/</link><description>Recent content in Experiment on IoTone, Inc.</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="/tags/experiment/index.xml" rel="self" type="application/rss+xml"/><item><title>SpectaclesFoosball prototype</title><link>/news/2026-02-06-spectacles-foosball/</link><pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><guid>/news/2026-02-06-spectacles-foosball/</guid><description>The first cut of a foosball-in-AR prototype, which seeds the No Foosball No Life community.</description></item><item><title>FlatworldSpaceWallet: spatially-aware Polygon wallet for visionOS</title><link>/news/2024-04-10-flatworld-space-wallet/</link><pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate><guid>/news/2024-04-10-flatworld-space-wallet/</guid><description>A spatially aware wallet for transacting on the Polygon network from VR / visionOS / Vision Pro.</description></item><item><title>evento-proto: Mina blockchain zkApp prototype for events</title><link>/news/2022-09-23-evento-mina/</link><pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate><guid>/news/2022-09-23-evento-mina/</guid><description>A Mina-blockchain event-organizer zkApp prototype, designed to decentralize small-scale events.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Experiment on IoTone, Inc.</title>
+    <link>/tags/experiment/</link>
+    <description>Recent content in Experiment on IoTone, Inc.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/experiment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SpectaclesFoosball prototype</title>
+      <link>/news/2026-02-06-spectacles-foosball/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>/news/2026-02-06-spectacles-foosball/</guid>
+      <description>The first cut of a foosball-in-AR prototype, which seeds the No Foosball No Life community.</description>
+    </item>
+    <item>
+      <title>FlatworldSpaceWallet: spatially-aware Polygon wallet for visionOS</title>
+      <link>/news/2024-04-10-flatworld-space-wallet/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>/news/2024-04-10-flatworld-space-wallet/</guid>
+      <description>A spatially aware wallet for transacting on the Polygon network from VR / visionOS / Vision Pro.</description>
+    </item>
+    <item>
+      <title>evento-proto: Mina blockchain zkApp prototype for events</title>
+      <link>/news/2022-09-23-evento-mina/</link>
+      <pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>/news/2022-09-23-evento-mina/</guid>
+      <description>A Mina-blockchain event-organizer zkApp prototype, designed to decentralize small-scale events.</description>
+    </item>
+  </channel>
+</rss>

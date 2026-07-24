@@ -1,1 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Iotj on IoTone, Inc.</title><link>/tags/iotj/</link><description>Recent content in Iotj on IoTone, Inc.</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 30 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="/tags/iotj/index.xml" rel="self" type="application/rss+xml"/><item><title>Spectacles DeskWindow</title><link>/projects/spectacles-deskwindow/</link><pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate><guid>/projects/spectacles-deskwindow/</guid><description>Spatial desktop mirroring for Snap Spectacles — the first OSS solution for streaming a desktop into AR.</description></item><item><title>RockeTone</title><link>/projects/rocketone/</link><pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate><guid>/projects/rocketone/</guid><description>IoT-instrumented papercraft and model rockets, run out of IoTone Japan. プロジェクトは紙飛行機と小型ロケットをIOTによって最新化する。</description></item><item><title>XR VisionDevCamp Fukuoka — site live</title><link>/news/2026-04-30-xrvdc-fukuoka-site-live/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>/news/2026-04-30-xrvdc-fukuoka-site-live/</guid><description>Hackathon site for XR VisionDevCamp Fukuoka goes live; Spectacles + visionOS tracks confirmed.</description></item><item><title>Three new IoTone Japan landing pages: RobotARme, Moire Lens Lab, No Foosball No Life</title><link>/news/2026-03-30-three-iotj-landing-pages/</link><pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate><guid>/news/2026-03-30-three-iotj-landing-pages/</guid><description>Sites go live for the RobotARme platform, the Moire Lens Lab art book, and the No Foosball No Life community.</description></item><item><title>Dr. Medaka's School of Fish &amp; Kanji Learners — landing page</title><link>/news/2026-02-01-drmedaka-www/</link><pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate><guid>/news/2026-02-01-drmedaka-www/</guid><description>Static content site for Dr. Medaka, an IoTone Japan client project.</description></item><item><title>VisionDevCamp Fukuoka announced</title><link>/news/2025-02-26-visiondevcamp-fukuoka/</link><pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate><guid>/news/2025-02-26-visiondevcamp-fukuoka/</guid><description>Spatial computing hackathon set for Fukuoka.</description></item><item><title>Flutter Responsive Mobile App Starter (IoTone Japan)</title><link>/news/2024-10-05-flutter-responsive-mobile-starter/</link><pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate><guid>/news/2024-10-05-flutter-responsive-mobile-starter/</guid><description>Boilerplate for app-store-ready Flutter mobile apps; used by IoTone Japan as a client training tool.</description></item><item><title>RockeTone — IoT-instrumented papercraft and model rockets</title><link>/news/2024-09-14-rocketone/</link><pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate><guid>/news/2024-09-14-rocketone/</guid><description>IoTone Japan&amp;rsquo;s RockeTone modernizes papercraft and model rockets with IoT hardware and software.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Iotj on IoTone, Inc.</title>
+    <link>/tags/iotj/</link>
+    <description>Recent content in Iotj on IoTone, Inc.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/iotj/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spectacles DeskWindow</title>
+      <link>/projects/spectacles-deskwindow/</link>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/projects/spectacles-deskwindow/</guid>
+      <description>Spatial desktop mirroring for Snap Spectacles — the first OSS solution for streaming a desktop into AR.</description>
+    </item>
+    <item>
+      <title>RockeTone</title>
+      <link>/projects/rocketone/</link>
+      <pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>/projects/rocketone/</guid>
+      <description>IoT-instrumented papercraft and model rockets, run out of IoTone Japan. プロジェクトは紙飛行機と小型ロケットをIOTによって最新化する。</description>
+    </item>
+    <item>
+      <title>XR VisionDevCamp Fukuoka — site live</title>
+      <link>/news/2026-04-30-xrvdc-fukuoka-site-live/</link>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/news/2026-04-30-xrvdc-fukuoka-site-live/</guid>
+      <description>Hackathon site for XR VisionDevCamp Fukuoka goes live; Spectacles + visionOS tracks confirmed.</description>
+    </item>
+    <item>
+      <title>Three new IoTone Japan landing pages: RobotARme, Moire Lens Lab, No Foosball No Life</title>
+      <link>/news/2026-03-30-three-iotj-landing-pages/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/news/2026-03-30-three-iotj-landing-pages/</guid>
+      <description>Sites go live for the RobotARme platform, the Moire Lens Lab art book, and the No Foosball No Life community.</description>
+    </item>
+    <item>
+      <title>Dr. Medaka&#39;s School of Fish &amp; Kanji Learners — landing page</title>
+      <link>/news/2026-02-01-drmedaka-www/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>/news/2026-02-01-drmedaka-www/</guid>
+      <description>Static content site for Dr. Medaka, an IoTone Japan client project.</description>
+    </item>
+    <item>
+      <title>VisionDevCamp Fukuoka announced</title>
+      <link>/news/2025-02-26-visiondevcamp-fukuoka/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>/news/2025-02-26-visiondevcamp-fukuoka/</guid>
+      <description>Spatial computing hackathon set for Fukuoka.</description>
+    </item>
+    <item>
+      <title>Flutter Responsive Mobile App Starter (IoTone Japan)</title>
+      <link>/news/2024-10-05-flutter-responsive-mobile-starter/</link>
+      <pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/news/2024-10-05-flutter-responsive-mobile-starter/</guid>
+      <description>Boilerplate for app-store-ready Flutter mobile apps; used by IoTone Japan as a client training tool.</description>
+    </item>
+    <item>
+      <title>RockeTone — IoT-instrumented papercraft and model rockets</title>
+      <link>/news/2024-09-14-rocketone/</link>
+      <pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>/news/2024-09-14-rocketone/</guid>
+      <description>IoTone Japan&amp;rsquo;s RockeTone modernizes papercraft and model rockets with IoT hardware and software.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>First-of-Its-Kind on IoTone, Inc.</title><link>/tags/first-of-its-kind/</link><description>Recent content in First-of-Its-Kind on IoTone, Inc.</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 08 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/first-of-its-kind/index.xml" rel="self" type="application/rss+xml"/><item><title>SpectaclesDeskWindow ships — first OSS spatial desktop mirror</title><link>/news/2025-04-08-spectacles-deskwindow/</link><pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate><guid>/news/2025-04-08-spectacles-deskwindow/</guid><description>Spatial desktop mirroring solution for Snap Spectacles AR glasses — the first OSS solution for streaming a desktop into AR.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>First-of-Its-Kind on IoTone, Inc.</title>
+    <link>/tags/first-of-its-kind/</link>
+    <description>Recent content in First-of-Its-Kind on IoTone, Inc.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/first-of-its-kind/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SpectaclesDeskWindow ships — first OSS spatial desktop mirror</title>
+      <link>/news/2025-04-08-spectacles-deskwindow/</link>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/news/2025-04-08-spectacles-deskwindow/</guid>
+      <description>Spatial desktop mirroring solution for Snap Spectacles AR glasses — the first OSS solution for streaming a desktop into AR.</description>
+    </item>
+  </channel>
+</rss>

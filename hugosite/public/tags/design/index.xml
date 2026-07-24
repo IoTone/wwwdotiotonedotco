@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Design on IoTone, Inc.</title><link>/tags/design/</link><description>Recent content in Design on IoTone, Inc.</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 18 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/design/index.xml" rel="self" type="application/rss+xml"/><item><title>Awesome Spatial Design</title><link>/news/2025-04-18-awesome-spatial-design/</link><pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate><guid>/news/2025-04-18-awesome-spatial-design/</guid><description>A curated list of spatial-design tools, talks, processes, themes, idea boards, and sample apps.</description></item><item><title>hugo-gwatt-japan-biz-theme + Awesome Design Thinking EN/JA</title><link>/news/2024-10-02-hugo-gwatt-japan-biz-theme/</link><pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate><guid>/news/2024-10-02-hugo-gwatt-japan-biz-theme/</guid><description>A bilingual JA/EN business Hugo theme, plus a curated reading list on design thinking.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design on IoTone, Inc.</title>
+    <link>/tags/design/</link>
+    <description>Recent content in Design on IoTone, Inc.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Awesome Spatial Design</title>
+      <link>/news/2025-04-18-awesome-spatial-design/</link>
+      <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/news/2025-04-18-awesome-spatial-design/</guid>
+      <description>A curated list of spatial-design tools, talks, processes, themes, idea boards, and sample apps.</description>
+    </item>
+    <item>
+      <title>hugo-gwatt-japan-biz-theme &#43; Awesome Design Thinking EN/JA</title>
+      <link>/news/2024-10-02-hugo-gwatt-japan-biz-theme/</link>
+      <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/news/2024-10-02-hugo-gwatt-japan-biz-theme/</guid>
+      <description>A bilingual JA/EN business Hugo theme, plus a curated reading list on design thinking.</description>
+    </item>
+  </channel>
+</rss>

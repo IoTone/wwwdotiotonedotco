@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ble on IoTone, Inc.</title><link>/tags/ble/</link><description>Recent content in Ble on IoTone, Inc.</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="/tags/ble/index.xml" rel="self" type="application/rss+xml"/><item><title>Project MAG*Net</title><link>/projects/project-magnet/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>/projects/project-magnet/</guid><description>Distributed IoT data sync &amp;amp; control across Matter, Zigbee, Thread, HomeKit, BLE, and Wi-Fi. ESP32 firmware + C++ runtime.</description></item><item><title>Spectacles SkywriterBLE</title><link>/projects/spectacles-skywriter-ble/</link><pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><guid>/projects/spectacles-skywriter-ble/</guid><description>BLE HID keyboard for Snap Spectacles, with a distraction-free XR word processor on top. 3rd Place OSS Prize, Lensfest April 2026.</description></item><item><title>Spectacles SkywriterBLE — typing in AR</title><link>/news/2026-04-08-spectacles-skywriter-ble/</link><pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><guid>/news/2026-04-08-spectacles-skywriter-ble/</guid><description>A BLE HID keyboard reference for Snap Spectacles, with a prototype word processor on top. Solves typing in AR.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ble on IoTone, Inc.</title>
+    <link>/tags/ble/</link>
+    <description>Recent content in Ble on IoTone, Inc.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/ble/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project MAG*Net</title>
+      <link>/projects/project-magnet/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/projects/project-magnet/</guid>
+      <description>Distributed IoT data sync &amp;amp; control across Matter, Zigbee, Thread, HomeKit, BLE, and Wi-Fi. ESP32 firmware + C++ runtime.</description>
+    </item>
+    <item>
+      <title>Spectacles SkywriterBLE</title>
+      <link>/projects/spectacles-skywriter-ble/</link>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/projects/spectacles-skywriter-ble/</guid>
+      <description>BLE HID keyboard for Snap Spectacles, with a distraction-free XR word processor on top. 3rd Place OSS Prize, Lensfest April 2026.</description>
+    </item>
+    <item>
+      <title>Spectacles SkywriterBLE — typing in AR</title>
+      <link>/news/2026-04-08-spectacles-skywriter-ble/</link>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/news/2026-04-08-spectacles-skywriter-ble/</guid>
+      <description>A BLE HID keyboard reference for Snap Spectacles, with a prototype word processor on top. Solves typing in AR.</description>
+    </item>
+  </channel>
+</rss>
