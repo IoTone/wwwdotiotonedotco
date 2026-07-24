@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Samples on IoTone, Inc.</title><link>/tags/samples/</link><description>Recent content in Samples on IoTone, Inc.</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/samples/index.xml" rel="self" type="application/rss+xml"/><item><title>Snap Spectacles Interaction Kit Samples</title><link>/projects/snap-spectacles-ik-samples/</link><pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate><guid>/projects/snap-spectacles-ik-samples/</guid><description>Snap Spectacles Interaction Kit Samples designed as a building block for new lenses.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Samples on IoTone, Inc.</title>
+    <link>/tags/samples/</link>
+    <description>Recent content in Samples on IoTone, Inc.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/samples/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Snap Spectacles Interaction Kit Samples</title>
+      <link>/projects/snap-spectacles-ik-samples/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/projects/snap-spectacles-ik-samples/</guid>
+      <description>Snap Spectacles Interaction Kit Samples designed as a building block for new lenses.</description>
+    </item>
+  </channel>
+</rss>

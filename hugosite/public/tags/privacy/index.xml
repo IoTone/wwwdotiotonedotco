@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Privacy on IoTone, Inc.</title><link>/tags/privacy/</link><description>Recent content in Privacy on IoTone, Inc.</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 07 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/privacy/index.xml" rel="self" type="application/rss+xml"/><item><title>Shashin GO</title><link>/projects/shashin-go/</link><pubDate>Wed, 07 Feb 2024 00:00:00 +0000</pubDate><guid>/projects/shashin-go/</guid><description>Open-source DIY wearable AI camera. Concept 1 + 2 hardware design files. Privacy-first capture.</description></item><item><title>FootTrackr</title><link>/projects/foottrackr/</link><pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate><guid>/projects/foottrackr/</guid><description>Privacy-respecting RFID-based foot-traffic tracking for events and retail. Zero enrollment.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Privacy on IoTone, Inc.</title>
+    <link>/tags/privacy/</link>
+    <description>Recent content in Privacy on IoTone, Inc.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shashin GO</title>
+      <link>/projects/shashin-go/</link>
+      <pubDate>Wed, 07 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>/projects/shashin-go/</guid>
+      <description>Open-source DIY wearable AI camera. Concept 1 + 2 hardware design files. Privacy-first capture.</description>
+    </item>
+    <item>
+      <title>FootTrackr</title>
+      <link>/projects/foottrackr/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/projects/foottrackr/</guid>
+      <description>Privacy-respecting RFID-based foot-traffic tracking for events and retail. Zero enrollment.</description>
+    </item>
+  </channel>
+</rss>

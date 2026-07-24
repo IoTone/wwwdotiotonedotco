@@ -1,14 +1,175 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"><meta name=viewport content="width=device-width,initial-scale=1"><title>NFTYGlobe: NFC-based 3D NFT viewer for OpenSea — IoTone, Inc.</title>
-<meta name=description content="An NFC-based 3D NFT viewer for OpenSea — hardware + software prototype."><meta name=keywords content="IoTone,Poplog,Pop-11,Prolog,Common Lisp,Standard ML,ELIZA,RISC-V,Apple Silicon,Raspberry Pi 5,Snap Spectacles,AR,XR,Spatial Computing,Polynode,Lensfest,IoT,Matter,Zigbee,Thread,Meshtastic,Wearable,Open Source,Portland,PDX,Fukuoka,IoTone Japan"><meta name=author content="IoTone, Inc."><meta property="og:site_name" content="IoTone, Inc."><meta property="og:title" content="NFTYGlobe: NFC-based 3D NFT viewer for OpenSea — IoTone, Inc."><meta property="og:description" content="An NFC-based 3D NFT viewer for OpenSea — hardware + software prototype."><meta property="og:type" content="article"><meta property="og:url" content="/news/2021-11-21-nfty-globe/"><meta property="og:image" content="/images/full/iotone_logo_v1d.png"><meta property="og:locale" content="en_us"><meta property="article:published_time" content="2021-11-21T00:00:00Z"><meta property="article:modified_time" content="2021-11-21T00:00:00Z"><meta property="article:tag" content="release"><meta property="article:tag" content="blockchain"><meta property="article:tag" content="nfc"><meta property="article:tag" content="mixed-reality"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="NFTYGlobe: NFC-based 3D NFT viewer for OpenSea — IoTone, Inc."><meta name=twitter:description content="An NFC-based 3D NFT viewer for OpenSea — hardware + software prototype."><meta name=twitter:image content="/images/full/iotone_logo_v1d.png"><link rel=canonical href=/news/2021-11-21-nfty-globe/><link rel=alternate type=application/rss+xml title="IoTone, Inc. News" href=/news/index.xml><link rel=icon href=/images/favicon.ico type=image/x-icon><link rel=apple-touch-icon href=/images/apple-touch-icon.png><link rel=stylesheet href=/css/main.css><script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","headline":"NFTYGlobe: NFC-based 3D NFT viewer for OpenSea","description":"An NFC-based 3D NFT viewer for OpenSea — hardware + software prototype.","datePublished":"2021-11-21T00:00:00Z","dateModified":"2021-11-21T00:00:00Z","author":{"@type":"Organization","name":"IoTone, Inc.","url":"\/"},"publisher":{"@type":"Organization","name":"IoTone, Inc.","logo":{"@type":"ImageObject","url":"\/images\/full\/iotone_logo_v1d.png"}},"image":"\/images\/full\/iotone_logo_v1d.png","mainEntityOfPage":{"@type":"WebPage","@id":"\/news\/2021-11-21-nfty-globe\/"},"keywords":["release","blockchain","nfc","mixed-reality"]}</script><meta name=generator content="Hugo 0.135.0"></head><body><a class=skip-link href=#main>Skip to content</a><header class="nav page" role=banner><a class=brand href=/ aria-label="IoTone, Inc. — home"><img class=logo src=/images/thumbs/iotone_logo_v1d250x250.png alt="IoTone, Inc.">
-IoTone</a><nav class=links role=navigation aria-label=Primary><a href=/projects/>Work</a>
-<a href=/news/ class=active>News</a>
-<a href=/#about>Studio</a>
-<a href=/contact/>Contact</a></nav><a class=cta href=https://github.com/IoTone rel=noopener>GitHub</a></header><main id=main role=main><article class=post><span class=pill>Release · 2021</span><h1>NFTYGlobe: NFC-based 3D NFT viewer for OpenSea</h1><p class=lede>An NFC-based 3D NFT viewer for OpenSea — hardware + software prototype.</p><p class=meta><a href=/news/>News</a> ·
-<time datetime=2021-11-21>November 21, 2021</time>
-· 1 min read</p><div class=visual></div><div class=content><p><a href=https://github.com/IoTone/NFTYGlobe>NFTYGlobe</a> is an NFC-based 3D NFT viewer for OpenSea — a hardware + software prototype that physicalized NFTs as touch-tappable artifacts. Archived in 2024.</p></div><div class=tags><span class=tag>release</span><span class=tag>blockchain</span><span class=tag>nfc</span><span class=tag>mixed-reality</span></div><div class=source-strip>Source: <a href=https://github.com/IoTone/NFTYGlobe rel=noopener>https://github.com/IoTone/NFTYGlobe</a></div></article></main><footer class=site role=contentinfo><div class=brand-block><a class=brand href=/><img class=logo src=/images/thumbs/iotone_logo_v1d250x250.png alt="IoTone, Inc.">
-IoTone
-</a>Open source for spatial, wearable, and IoT. PDX + Fukuoka.</div><div class=col><h4>Studio</h4><a href=/projects/>Work</a><a href=/news/>News</a><a href=/#about>Studio</a><a href=/contact/>Contact</a></div><div class=col><h4>Code</h4><a href=https://github.com/IoTone rel=noopener>GitHub</a>
-<a href=/news/index.xml>RSS</a></div><div class=col><h4>Reach</h4><a href=mailto:info@iotone.io>info@iotone.io</a>
-<a href=https://www.linkedin.com/company/iotone-inc/ rel=noopener>LinkedIn</a>
-<a href=tel:+14156448938>+1 (415) 644-8938</a></div><div class=copyright>Copyright &copy; IoTone, Inc. 2014-2026.
-For sponsorship of open source, <a href=mailto:info@iotone.io>contact us</a>.</div></footer></body></html>
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>NFTYGlobe: NFC-based 3D NFT viewer for OpenSea — IoTone, Inc.</title>
+<meta name="description" content="An NFC-based 3D NFT viewer for OpenSea — hardware &#43; software prototype.">
+<meta name="keywords" content="IoTone, Poplog, Pop-11, Prolog, Common Lisp, Standard ML, ELIZA, RISC-V, Apple Silicon, Raspberry Pi 5, Snap Spectacles, AR, XR, Spatial Computing, Polynode, Lensfest, IoT, Matter, Zigbee, Thread, Meshtastic, Wearable, Open Source, Portland, PDX, Fukuoka, IoTone Japan">
+<meta name="author" content="IoTone, Inc.">
+
+
+<meta property="og:site_name" content="IoTone, Inc.">
+<meta property="og:title" content="NFTYGlobe: NFC-based 3D NFT viewer for OpenSea — IoTone, Inc.">
+<meta property="og:description" content="An NFC-based 3D NFT viewer for OpenSea — hardware &#43; software prototype.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="/news/2021-11-21-nfty-globe/">
+<meta property="og:image" content="/images/full/iotone_logo_v1d.png">
+<meta property="og:locale" content="en_us">
+
+<meta property="article:published_time" content="2021-11-21T00:00:00Z">
+<meta property="article:modified_time" content="2021-11-21T00:00:00Z">
+<meta property="article:tag" content="release">
+<meta property="article:tag" content="blockchain">
+<meta property="article:tag" content="nfc">
+<meta property="article:tag" content="mixed-reality">
+
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="NFTYGlobe: NFC-based 3D NFT viewer for OpenSea — IoTone, Inc.">
+<meta name="twitter:description" content="An NFC-based 3D NFT viewer for OpenSea — hardware &#43; software prototype.">
+<meta name="twitter:image" content="/images/full/iotone_logo_v1d.png">
+
+
+
+<link rel="canonical" href="/news/2021-11-21-nfty-globe/">
+<link rel="alternate" type="application/rss+xml" title="IoTone, Inc. News" href="/news/index.xml">
+
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "NFTYGlobe: NFC-based 3D NFT viewer for OpenSea",
+  "description": "An NFC-based 3D NFT viewer for OpenSea — hardware + software prototype.",
+  "datePublished": "2021-11-21T00:00:00Z",
+  "dateModified": "2021-11-21T00:00:00Z",
+  "author": {
+    "@type": "Organization",
+    "name": "IoTone, Inc.",
+    "url": "\/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "IoTone, Inc.",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "\/images\/full\/iotone_logo_v1d.png"
+    }
+  },
+  "image": "\/images\/full\/iotone_logo_v1d.png",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "\/news\/2021-11-21-nfty-globe\/"
+  },
+  "keywords": ["release","blockchain","nfc","mixed-reality"]
+}
+</script>
+
+
+
+<meta name="generator" content="Hugo 0.135.0">
+
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="nav page" role="banner">
+  <a class="brand" href="/" aria-label="IoTone, Inc. — home">
+    <img class="logo" src="/images/thumbs/iotone_logo_v1d250x250.png" alt="IoTone, Inc.">
+    IoTone
+  </a>
+  <nav class="links" role="navigation" aria-label="Primary">
+    
+      
+      <a href="/projects/">Work</a>
+    
+      
+      <a href="/news/" class="active">News</a>
+    
+      
+      <a href="/#about">Studio</a>
+    
+      
+      <a href="/contact/">Contact</a>
+    
+  </nav>
+  <a class="cta" href="https://github.com/IoTone" rel="noopener">GitHub</a>
+</header>
+
+<main id="main" role="main">
+  <article class="post">
+  <span class="pill">Release · 2021</span>
+  <h1>NFTYGlobe: NFC-based 3D NFT viewer for OpenSea</h1>
+  <p class="lede">An NFC-based 3D NFT viewer for OpenSea — hardware + software prototype.</p>
+  <p class="meta">
+    <a href="/news/">News</a> ·
+    <time datetime="2021-11-21">November 21, 2021</time>
+     · 1 min read
+  </p>
+  
+  <div class="visual"></div>
+  
+  <div class="content">
+    <p><a href="https://github.com/IoTone/NFTYGlobe">NFTYGlobe</a> is an NFC-based 3D NFT viewer for OpenSea — a hardware + software prototype that physicalized NFTs as touch-tappable artifacts. Archived in 2024.</p>
+
+  </div>
+
+  
+  <div class="tags">
+    <span class="tag">release</span><span class="tag">blockchain</span><span class="tag">nfc</span><span class="tag">mixed-reality</span>
+  </div>
+  
+
+  
+  <div class="source-strip">
+    Source: <a href="https://github.com/IoTone/NFTYGlobe" rel="noopener">https://github.com/IoTone/NFTYGlobe</a>
+  </div>
+  
+</article>
+
+</main>
+<footer class="site" role="contentinfo">
+  <div class="brand-block">
+    <a class="brand" href="/">
+      <img class="logo" src="/images/thumbs/iotone_logo_v1d250x250.png" alt="IoTone, Inc.">
+      IoTone
+    </a>
+    Open source for spatial, wearable, and IoT. PDX &#43; Fukuoka.
+  </div>
+
+  <div class="col">
+    <h4>Studio</h4>
+    <a href="/projects/">Work</a><a href="/news/">News</a><a href="/#about">Studio</a><a href="/contact/">Contact</a>
+  </div>
+
+  <div class="col">
+    <h4>Code</h4>
+    <a href="https://github.com/IoTone" rel="noopener">GitHub</a>
+    <a href="/news/index.xml">RSS</a>
+  </div>
+
+  <div class="col">
+    <h4>Reach</h4>
+    <a href="mailto:info@iotone.io">info@iotone.io</a>
+    <a href="https://www.linkedin.com/company/iotone-inc/" rel="noopener">LinkedIn</a>
+    <a href="tel:&#43;14156448938">&#43;1 (415) 644-8938</a>
+  </div>
+
+  <div class="copyright">
+    Copyright &copy; IoTone, Inc. 2014-2026.
+    For sponsorship of open source, <a href='mailto:info@iotone.io'>contact us</a>.
+  </div>
+</footer>
+
+</body>
+</html>

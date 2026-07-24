@@ -1,1 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blockchain on IoTone, Inc.</title><link>/tags/blockchain/</link><description>Recent content in Blockchain on IoTone, Inc.</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 23 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/blockchain/index.xml" rel="self" type="application/rss+xml"/><item><title>NFTYGlobe</title><link>/projects/nfty-globe/</link><pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate><guid>/projects/nfty-globe/</guid><description>An NFC-based 3D NFT viewer for OpenSea — hardware + software prototype.</description></item><item><title>Blockchain-In-A-Box</title><link>/projects/blockchain-in-a-box/</link><pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate><guid>/projects/blockchain-in-a-box/</guid><description>A rapid-prototyping kit for enterprise blockchain solutions and Industrial / IoT blockchain dapps.</description></item><item><title>evento-proto: Mina blockchain zkApp prototype for events</title><link>/news/2022-09-23-evento-mina/</link><pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate><guid>/news/2022-09-23-evento-mina/</guid><description>A Mina-blockchain event-organizer zkApp prototype, designed to decentralize small-scale events.</description></item><item><title>NFTYGlobe: NFC-based 3D NFT viewer for OpenSea</title><link>/news/2021-11-21-nfty-globe/</link><pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate><guid>/news/2021-11-21-nfty-globe/</guid><description>An NFC-based 3D NFT viewer for OpenSea — hardware + software prototype.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blockchain on IoTone, Inc.</title>
+    <link>/tags/blockchain/</link>
+    <description>Recent content in Blockchain on IoTone, Inc.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NFTYGlobe</title>
+      <link>/projects/nfty-globe/</link>
+      <pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/projects/nfty-globe/</guid>
+      <description>An NFC-based 3D NFT viewer for OpenSea — hardware + software prototype.</description>
+    </item>
+    <item>
+      <title>Blockchain-In-A-Box</title>
+      <link>/projects/blockchain-in-a-box/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/projects/blockchain-in-a-box/</guid>
+      <description>A rapid-prototyping kit for enterprise blockchain solutions and Industrial / IoT blockchain dapps.</description>
+    </item>
+    <item>
+      <title>evento-proto: Mina blockchain zkApp prototype for events</title>
+      <link>/news/2022-09-23-evento-mina/</link>
+      <pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>/news/2022-09-23-evento-mina/</guid>
+      <description>A Mina-blockchain event-organizer zkApp prototype, designed to decentralize small-scale events.</description>
+    </item>
+    <item>
+      <title>NFTYGlobe: NFC-based 3D NFT viewer for OpenSea</title>
+      <link>/news/2021-11-21-nfty-globe/</link>
+      <pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/news/2021-11-21-nfty-globe/</guid>
+      <description>An NFC-based 3D NFT viewer for OpenSea — hardware + software prototype.</description>
+    </item>
+  </channel>
+</rss>

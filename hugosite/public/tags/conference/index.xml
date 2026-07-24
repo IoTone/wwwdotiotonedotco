@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Conference on IoTone, Inc.</title><link>/tags/conference/</link><description>Recent content in Conference on IoTone, Inc.</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="/tags/conference/index.xml" rel="self" type="application/rss+xml"/><item><title>Supporting "The WebXR of Things" at MeaningfulXR 2026</title><link>/news/2026-05-22-webxr-of-things-meaningfulxr-2026/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>/news/2026-05-22-webxr-of-things-meaningfulxr-2026/</guid><description>IoTone Japan submitted &amp;ldquo;The WebXR of Things&amp;rdquo; as a poster to MeaningfulXR 2026 (MXR26) — IoTone, Inc. is sponsoring the open-source reference design, released as part of Project MAG*Net.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conference on IoTone, Inc.</title>
+    <link>/tags/conference/</link>
+    <description>Recent content in Conference on IoTone, Inc.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/conference/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Supporting &#34;The WebXR of Things&#34; at MeaningfulXR 2026</title>
+      <link>/news/2026-05-22-webxr-of-things-meaningfulxr-2026/</link>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <guid>/news/2026-05-22-webxr-of-things-meaningfulxr-2026/</guid>
+      <description>IoTone Japan submitted &amp;ldquo;The WebXR of Things&amp;rdquo; as a poster to MeaningfulXR 2026 (MXR26) — IoTone, Inc. is sponsoring the open-source reference design, released as part of Project MAG*Net.</description>
+    </item>
+  </channel>
+</rss>

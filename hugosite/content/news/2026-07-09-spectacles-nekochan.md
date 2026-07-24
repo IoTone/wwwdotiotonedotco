@@ -5,6 +5,7 @@ draft: false
 tags: ["release", "spectacles", "ar", "offline", "japanese", "localization"]
 summary: "Spectacles-NekoChan is a Snap Spectacles lens where a 3D cat shares facts — in Japanese — about native breeds and Japan's cat islands, running entirely on-device with no internet and no experimental APIs."
 source_url: "https://github.com/IoTone/Spectacles-NekoChan"
+hero_image: "/images/news/nekochan.png"
 repo_url: "https://github.com/IoTone/Spectacles-NekoChan"
 related_projects:
   - "spectacles-nekochan"

@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mixed-Reality on IoTone, Inc.</title><link>/tags/mixed-reality/</link><description>Recent content in Mixed-Reality on IoTone, Inc.</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 21 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/mixed-reality/index.xml" rel="self" type="application/rss+xml"/><item><title>NFTYGlobe</title><link>/projects/nfty-globe/</link><pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate><guid>/projects/nfty-globe/</guid><description>An NFC-based 3D NFT viewer for OpenSea — hardware + software prototype.</description></item><item><title>NFTYGlobe: NFC-based 3D NFT viewer for OpenSea</title><link>/news/2021-11-21-nfty-globe/</link><pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate><guid>/news/2021-11-21-nfty-globe/</guid><description>An NFC-based 3D NFT viewer for OpenSea — hardware + software prototype.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mixed-Reality on IoTone, Inc.</title>
+    <link>/tags/mixed-reality/</link>
+    <description>Recent content in Mixed-Reality on IoTone, Inc.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/mixed-reality/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NFTYGlobe</title>
+      <link>/projects/nfty-globe/</link>
+      <pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/projects/nfty-globe/</guid>
+      <description>An NFC-based 3D NFT viewer for OpenSea — hardware + software prototype.</description>
+    </item>
+    <item>
+      <title>NFTYGlobe: NFC-based 3D NFT viewer for OpenSea</title>
+      <link>/news/2021-11-21-nfty-globe/</link>
+      <pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/news/2021-11-21-nfty-globe/</guid>
+      <description>An NFC-based 3D NFT viewer for OpenSea — hardware + software prototype.</description>
+    </item>
+  </channel>
+</rss>

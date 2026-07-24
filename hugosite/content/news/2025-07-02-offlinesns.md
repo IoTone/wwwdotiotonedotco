@@ -5,6 +5,7 @@ draft: false
 tags: ["release", "meshtastic", "japan", "lora"]
 summary: "Community initiative to bring Meshtastic to Japan, starting in Fukuoka."
 source_url: "https://github.com/IoTone/offlinesns"
+hero_image: "/images/news/offlinesns.jpg"
 ---
 
 [offlinesns](https://github.com/IoTone/offlinesns) is a community initiative to bring Meshtastic to Japan, started in Fukuoka. LoRa, Rust, and a focus on off-grid social.

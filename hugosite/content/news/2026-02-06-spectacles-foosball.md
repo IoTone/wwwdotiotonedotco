@@ -5,6 +5,7 @@ draft: false
 tags: ["experiment", "spectacles"]
 summary: "The first cut of a foosball-in-AR prototype, which seeds the No Foosball No Life community."
 source_url: "https://github.com/IoTone/SpectaclesFoosball"
+hero_image: "/images/news/foosball.png"
 ---
 
 [SpectaclesFoosball](https://github.com/IoTone/SpectaclesFoosball) is a prototype foosball game on Snap Spectacles. It's the seed of the broader No Foosball No Life community.

@@ -1,13 +1,176 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"><meta name=viewport content="width=device-width,initial-scale=1"><title>Poplog — IoTone, Inc.</title>
-<meta name=description content="We brought Poplog — the classic multi-language AI development environment (Pop-11, Prolog, Common Lisp, Standard ML) — natively onto Apple Silicon, Raspberry Pi 5, and RISC-V. Then we added a fifth language, a real ELIZA, native graphics, and a full benchmark suite."><meta name=keywords content="IoTone,Poplog,Pop-11,Prolog,Common Lisp,Standard ML,ELIZA,RISC-V,Apple Silicon,Raspberry Pi 5,Snap Spectacles,AR,XR,Spatial Computing,Polynode,Lensfest,IoT,Matter,Zigbee,Thread,Meshtastic,Wearable,Open Source,Portland,PDX,Fukuoka,IoTone Japan"><meta name=author content="IoTone, Inc."><meta property="og:site_name" content="IoTone, Inc."><meta property="og:title" content="Poplog — IoTone, Inc."><meta property="og:description" content="We brought Poplog — the classic multi-language AI development environment (Pop-11, Prolog, Common Lisp, Standard ML) — natively onto Apple Silicon, Raspberry Pi 5, and RISC-V. Then we added a fifth language, a real ELIZA, native graphics, and a full benchmark suite."><meta property="og:type" content="website"><meta property="og:url" content="/projects/poplog/"><meta property="og:image" content="/images/full/iotone_logo_v1d.png"><meta property="og:locale" content="en_us"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="Poplog — IoTone, Inc."><meta name=twitter:description content="We brought Poplog — the classic multi-language AI development environment (Pop-11, Prolog, Common Lisp, Standard ML) — natively onto Apple Silicon, Raspberry Pi 5, and RISC-V. Then we added a fifth language, a real ELIZA, native graphics, and a full benchmark suite."><meta name=twitter:image content="/images/full/iotone_logo_v1d.png"><link rel=canonical href=/projects/poplog/><link rel=alternate type=application/rss+xml title="IoTone, Inc. News" href=/news/index.xml><link rel=icon href=/images/favicon.ico type=image/x-icon><link rel=apple-touch-icon href=/images/apple-touch-icon.png><link rel=stylesheet href=/css/main.css><meta name=generator content="Hugo 0.135.0"></head><body><a class=skip-link href=#main>Skip to content</a><header class="nav page" role=banner><a class=brand href=/ aria-label="IoTone, Inc. — home"><img class=logo src=/images/thumbs/iotone_logo_v1d250x250.png alt="IoTone, Inc.">
-IoTone</a><nav class=links role=navigation aria-label=Primary><a href=/projects/ class=active>Work</a>
-<a href=/news/>News</a>
-<a href=/#about>Studio</a>
-<a href=/contact/>Contact</a></nav><a class=cta href=https://github.com/IoTone rel=noopener>GitHub</a></header><main id=main role=main><div class=page><section class=proj-hero><div><span class=pill>AI heritage revived</span><h1>Poplog</h1><p class=lede>We brought Poplog — the classic multi-language AI development environment (Pop-11, Prolog, Common Lisp, Standard ML) — natively onto Apple Silicon, Raspberry Pi 5, and RISC-V. Then we added a fifth language, a real ELIZA, native graphics, and a full benchmark suite.</p><div class=cta-row><a class="btn primary" href=https://github.com/IoTone/poplog rel=noopener>Source on GitHub</a>
-<a class="btn ghost" href=/news/2026-07-24-poplog/>Read launch story</a></div></div><div class=visual></div></section><div class=proj-body><aside class=facts><dt>Status</dt><dd>Active</dd><dt>Started</dt><dd>July 2026</dd><dt>Language</dt><dd>Pop-11 · C</dd><dt>License</dt><dd>MIT-style (free Poplog)</dd><dt>GitHub</dt><dd><a href=https://github.com/IoTone/poplog rel=noopener>github.com/IoTone/poplog</a></dd><dt>Tags</dt><dd>poplog, pop-11, prolog, common-lisp, standard-ml, forth, eliza, ai-history, riscv, apple-silicon, raspberry-pi, porting, benchmarks, claude</dd><dt>Related</dt><dd><a href=/projects/burisu/>Burisu (ブライス)</a><br></dd></aside><article class=content><h2 id=what-it-is>What it is</h2><p><a href=https://en.wikipedia.org/wiki/Poplog>Poplog</a> is one of the great artifacts of AI history — a multi-language software development environment from the University of Sussex, built around fast <strong>incremental compilers</strong> for four interactive languages that share one virtual machine and one saved image, and interoperate freely:</p><ul><li><strong>Pop-11</strong> — the core language, with the Objectclass OO extension (a CLOS-for-Pop),</li><li><strong>Prolog</strong> — standard Edinburgh syntax,</li><li><strong>Common Lisp</strong> — CLTL2-compatible,</li><li><strong>Standard ML</strong> — strongly typed, polymorphic, functional.</li></ul><p>It ran a generation of AI and cognitive-science teaching, then largely fell off the modern platform map. <strong>We brought it back — natively — to the silicon people actually have in 2026</strong>, and then pushed it further than the original ever went. The work builds on <a href=https://github.com/hebisch/poplog>W. Hebisch&rsquo;s Poplog sources</a>, with a great deal of history reconstructed by hand from the Internet Archive and scattered corners of the web — and it was carried out with <strong>Claude</strong> as a pair-porting partner, right down into the assembler.</p><h2 id=three-new-native-ports>Three new native ports</h2><p>Poplog compiles to real machine code on every backend, so a port isn&rsquo;t a recompile — it&rsquo;s a code generator, a frame contract, and an instruction-cache story per architecture. We landed three:</p><ul><li><strong>Apple Silicon / macOS (arm64)</strong> — a native Mach-O port. Self-hosting, all four languages, terminal VED, C↔Pop callbacks, ad-hoc signed with <strong>no entitlements required</strong>.</li><li><strong>Raspberry Pi 5 / AArch64 Linux</strong> — validated on the Pi 5 (all four languages + saved images), written to the generic <code>armv8-a</code> baseline so it ports readily to other ARM64 boards.</li><li><strong>RISC-V / riscv64 Linux</strong> — a native RV64GC port, <strong>self-hosting on a StarFive VisionFive</strong> (dual SiFive U74). All four languages, saved images, terminal VED, and the FFI float ABI; the validation suite runs 14/14.</li></ul><h2 id=a-fifth-language-forth>A fifth language: Forth</h2><p>Classic Poplog ships four languages. <strong>We added a fifth — Forth — as a first-class subsystem.</strong> It leans on Poplog&rsquo;s open-stack calling convention so the implementation stays tiny and genuinely native: Forth&rsquo;s data stack <em>is</em> the Poplog user stack, and colon definitions (<code>: name … ;</code>) <strong>compile through Poplog&rsquo;s incremental compiler to machine code</strong> — a Forth word is a real native procedure, not threaded interpreted code. <code>.fth</code> is a recognized file type and <code>uses forth;</code> drops you into a REPL alongside Pop-11, Lisp, Prolog, and ML. Its built-in testbench is 21/21 on macOS arm64 and RISC-V, and because it&rsquo;s pure Pop-11 it runs on <strong>every platform Poplog does</strong>.</p><h2 id=a-real-eliza>A real ELIZA</h2><p>We added a faithful implementation of Joseph Weizenbaum&rsquo;s original <strong>ELIZA / DOCTOR</strong> (MIT, 1966) — not the thin teaching pattern-matcher usually shown, but the genuine engine: keyword <strong>ranking</strong>, <strong>decomposition</strong> rules with wildcards and synonym classes, round-robin <strong>reassembly</strong> templates, first/second-person <strong>reflection</strong>, keyword redirection, and <strong>memory</strong>. It&rsquo;s written in Pop-11 (an unusually good host for it) and <strong>validated against Weizenbaum&rsquo;s original 1966 script</strong>. Chat with it locally via <code>tools/eliza.sh</code>.</p><h2 id=native-graphics-experimental>Native graphics (experimental)</h2><p>Poplog&rsquo;s graphics were historically welded to the X window system. We added an <strong>optional native backend built on <a href=https://github.com/ocornut/imgui>Dear ImGui</a></strong>: <strong>Metal + Cocoa</strong> on macOS (no X server, no XQuartz) and <strong>SDL3 + OpenGL3</strong> on macOS or Linux — SDL3 picks Wayland, X11, or KMS/DRM at run time, so there&rsquo;s no hard X11 dependency, and it even renders <strong>headless</strong> via Mesa software for CI. The classic <code>rc_graphic</code> turtle library is ported on top, so existing Pop-11 graphics code runs unchanged. Demos include the classic <a href=https://10print.org/>10 PRINT</a> maze and a vsync-paced spinning 3D cube.</p><h2 id=porting-knowledge-written-down>Porting knowledge, written down</h2><p>A port is only worth as much as the next person can reuse. We shipped an unusually deep set of notes — a <a href=https://github.com/IoTone/poplog/blob/master/PORTING-POPLOG.md>porting recipe</a>, a <a href=https://github.com/IoTone/poplog/blob/master/HOSTING-LANGUAGES.md>guide to hosting a new language on the VM</a>, the AArch64 frame contract, RISC-V porting notes, and forensic write-ups of specific codegen bugs (false-label leaks, tail-subtract high-word, stale I-cache SIGILLs) — so the next architecture is a documented walk, not an archaeology dig.</p><h2 id=benchmarks>Benchmarks</h2><p>We published a rigorous <a href=https://github.com/IoTone/poplog/blob/master/BENCHMARKS.md>benchmark suite</a>: engine micro-benchmarks (calls, arithmetic, allocation/GC, incremental compilation, closures, strings) as the <strong>median of 30 runs</strong> with bootstrap 95% confidence intervals, across five machines — Intel i7, Apple M2, <strong>Apple M5 Pro</strong>, Raspberry Pi 5, and the <strong>RISC-V</strong> VisionFive — with Python and Perl baselines. A representative result: Poplog <strong>runtime-compiles a procedure to machine code in ~5.5 ms on an M5 Pro</strong> — parity with, or faster than, interpreters merely building bytecode.</p><h2 id=status>Status</h2><p>Active. A self-contained <strong>Nix flake</strong> builds and bootstraps the whole system — all five front-ends and their saved images — from source (<code>nix build .#poplog</code>, or <code>.#poplog-gfx</code> for the graphics variant). Source, ports, docs, and benchmarks on <a href=https://github.com/IoTone/poplog>github.com/IoTone</a>.</p></article></div></div></main><footer class=site role=contentinfo><div class=brand-block><a class=brand href=/><img class=logo src=/images/thumbs/iotone_logo_v1d250x250.png alt="IoTone, Inc.">
-IoTone
-</a>Open source for spatial, wearable, and IoT. PDX + Fukuoka.</div><div class=col><h4>Studio</h4><a href=/projects/>Work</a><a href=/news/>News</a><a href=/#about>Studio</a><a href=/contact/>Contact</a></div><div class=col><h4>Code</h4><a href=https://github.com/IoTone rel=noopener>GitHub</a>
-<a href=/news/index.xml>RSS</a></div><div class=col><h4>Reach</h4><a href=mailto:info@iotone.io>info@iotone.io</a>
-<a href=https://www.linkedin.com/company/iotone-inc/ rel=noopener>LinkedIn</a>
-<a href=tel:+14156448938>+1 (415) 644-8938</a></div><div class=copyright>Copyright &copy; IoTone, Inc. 2014-2026.
-For sponsorship of open source, <a href=mailto:info@iotone.io>contact us</a>.</div></footer></body></html>
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Poplog — IoTone, Inc.</title>
+<meta name="description" content="We brought Poplog — the classic multi-language AI development environment (Pop-11, Prolog, Common Lisp, Standard ML) — natively onto Apple Silicon, Raspberry Pi 5, and RISC-V. Then we added a fifth language, a real ELIZA, native graphics, and a full benchmark suite.">
+<meta name="keywords" content="IoTone, Poplog, Pop-11, Prolog, Common Lisp, Standard ML, ELIZA, RISC-V, Apple Silicon, Raspberry Pi 5, Snap Spectacles, AR, XR, Spatial Computing, Polynode, Lensfest, IoT, Matter, Zigbee, Thread, Meshtastic, Wearable, Open Source, Portland, PDX, Fukuoka, IoTone Japan">
+<meta name="author" content="IoTone, Inc.">
+
+
+<meta property="og:site_name" content="IoTone, Inc.">
+<meta property="og:title" content="Poplog — IoTone, Inc.">
+<meta property="og:description" content="We brought Poplog — the classic multi-language AI development environment (Pop-11, Prolog, Common Lisp, Standard ML) — natively onto Apple Silicon, Raspberry Pi 5, and RISC-V. Then we added a fifth language, a real ELIZA, native graphics, and a full benchmark suite.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="/projects/poplog/">
+<meta property="og:image" content="/images/full/iotone_logo_v1d.png">
+<meta property="og:locale" content="en_us">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Poplog — IoTone, Inc.">
+<meta name="twitter:description" content="We brought Poplog — the classic multi-language AI development environment (Pop-11, Prolog, Common Lisp, Standard ML) — natively onto Apple Silicon, Raspberry Pi 5, and RISC-V. Then we added a fifth language, a real ELIZA, native graphics, and a full benchmark suite.">
+<meta name="twitter:image" content="/images/full/iotone_logo_v1d.png">
+
+
+
+<link rel="canonical" href="/projects/poplog/">
+<link rel="alternate" type="application/rss+xml" title="IoTone, Inc. News" href="/news/index.xml">
+
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.135.0">
+
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="nav page" role="banner">
+  <a class="brand" href="/" aria-label="IoTone, Inc. — home">
+    <img class="logo" src="/images/thumbs/iotone_logo_v1d250x250.png" alt="IoTone, Inc.">
+    IoTone
+  </a>
+  <nav class="links" role="navigation" aria-label="Primary">
+    
+      
+      <a href="/projects/" class="active">Work</a>
+    
+      
+      <a href="/news/">News</a>
+    
+      
+      <a href="/#about">Studio</a>
+    
+      
+      <a href="/contact/">Contact</a>
+    
+  </nav>
+  <a class="cta" href="https://github.com/IoTone" rel="noopener">GitHub</a>
+</header>
+
+<main id="main" role="main">
+  <div class="page">
+  <section class="proj-hero">
+    <div>
+      <span class="pill">AI heritage revived</span>
+      <h1>Poplog</h1>
+      <p class="lede">We brought Poplog — the classic multi-language AI development environment (Pop-11, Prolog, Common Lisp, Standard ML) — natively onto Apple Silicon, Raspberry Pi 5, and RISC-V. Then we added a fifth language, a real ELIZA, native graphics, and a full benchmark suite.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="https://github.com/IoTone/poplog" rel="noopener">Source on GitHub</a>
+        <a class="btn ghost" href="/news/2026-07-24-poplog/">Read launch story</a>
+        
+      </div>
+    </div>
+    <div class="visual "></div>
+  </section>
+
+  <div class="proj-body">
+    <aside class="facts">
+      <dt>Status</dt><dd>Active</dd>
+      <dt>Started</dt><dd>July 2026</dd>
+      <dt>Language</dt><dd>Pop-11 · C</dd>
+      <dt>License</dt><dd>MIT-style (free Poplog)</dd>
+      
+      <dt>GitHub</dt><dd><a href="https://github.com/IoTone/poplog" rel="noopener">github.com/IoTone/poplog</a></dd>
+      <dt>Tags</dt><dd>poplog, pop-11, prolog, common-lisp, standard-ml, forth, eliza, ai-history, riscv, apple-silicon, raspberry-pi, porting, benchmarks, claude</dd>
+      
+      <dt>Related</dt>
+      <dd>
+        
+          
+          <a href="/projects/burisu/">Burisu (ブライス)</a><br>
+        
+      </dd>
+      
+    </aside>
+    <article class="content">
+      <h2 id="what-it-is">What it is</h2>
+<p><a href="https://en.wikipedia.org/wiki/Poplog">Poplog</a> is one of the great artifacts of AI history — a multi-language software development environment from the University of Sussex, built around fast <strong>incremental compilers</strong> for four interactive languages that share one virtual machine and one saved image, and interoperate freely:</p>
+<ul>
+<li><strong>Pop-11</strong> — the core language, with the Objectclass OO extension (a CLOS-for-Pop),</li>
+<li><strong>Prolog</strong> — standard Edinburgh syntax,</li>
+<li><strong>Common Lisp</strong> — CLTL2-compatible,</li>
+<li><strong>Standard ML</strong> — strongly typed, polymorphic, functional.</li>
+</ul>
+<p>It ran a generation of AI and cognitive-science teaching, then largely fell off the modern platform map. <strong>We brought it back — natively — to the silicon people actually have in 2026</strong>, and then pushed it further than the original ever went. The work builds on <a href="https://github.com/hebisch/poplog">W. Hebisch&rsquo;s Poplog sources</a>, with a great deal of history reconstructed by hand from the Internet Archive and scattered corners of the web — and it was carried out with <strong>Claude</strong> as a pair-porting partner, right down into the assembler.</p>
+<h2 id="three-new-native-ports">Three new native ports</h2>
+<p>Poplog compiles to real machine code on every backend, so a port isn&rsquo;t a recompile — it&rsquo;s a code generator, a frame contract, and an instruction-cache story per architecture. We landed three:</p>
+<ul>
+<li><strong>Apple Silicon / macOS (arm64)</strong> — a native Mach-O port. Self-hosting, all four languages, terminal VED, C↔Pop callbacks, ad-hoc signed with <strong>no entitlements required</strong>.</li>
+<li><strong>Raspberry Pi 5 / AArch64 Linux</strong> — validated on the Pi 5 (all four languages + saved images), written to the generic <code>armv8-a</code> baseline so it ports readily to other ARM64 boards.</li>
+<li><strong>RISC-V / riscv64 Linux</strong> — a native RV64GC port, <strong>self-hosting on a StarFive VisionFive</strong> (dual SiFive U74). All four languages, saved images, terminal VED, and the FFI float ABI; the validation suite runs 14/14.</li>
+</ul>
+<h2 id="a-fifth-language-forth">A fifth language: Forth</h2>
+<p>Classic Poplog ships four languages. <strong>We added a fifth — Forth — as a first-class subsystem.</strong> It leans on Poplog&rsquo;s open-stack calling convention so the implementation stays tiny and genuinely native: Forth&rsquo;s data stack <em>is</em> the Poplog user stack, and colon definitions (<code>: name … ;</code>) <strong>compile through Poplog&rsquo;s incremental compiler to machine code</strong> — a Forth word is a real native procedure, not threaded interpreted code. <code>.fth</code> is a recognized file type and <code>uses forth;</code> drops you into a REPL alongside Pop-11, Lisp, Prolog, and ML. Its built-in testbench is 21/21 on macOS arm64 and RISC-V, and because it&rsquo;s pure Pop-11 it runs on <strong>every platform Poplog does</strong>.</p>
+<h2 id="a-real-eliza">A real ELIZA</h2>
+<p>We added a faithful implementation of Joseph Weizenbaum&rsquo;s original <strong>ELIZA / DOCTOR</strong> (MIT, 1966) — not the thin teaching pattern-matcher usually shown, but the genuine engine: keyword <strong>ranking</strong>, <strong>decomposition</strong> rules with wildcards and synonym classes, round-robin <strong>reassembly</strong> templates, first/second-person <strong>reflection</strong>, keyword redirection, and <strong>memory</strong>. It&rsquo;s written in Pop-11 (an unusually good host for it) and <strong>validated against Weizenbaum&rsquo;s original 1966 script</strong>. Chat with it locally via <code>tools/eliza.sh</code>.</p>
+<h2 id="native-graphics-experimental">Native graphics (experimental)</h2>
+<p>Poplog&rsquo;s graphics were historically welded to the X window system. We added an <strong>optional native backend built on <a href="https://github.com/ocornut/imgui">Dear ImGui</a></strong>: <strong>Metal + Cocoa</strong> on macOS (no X server, no XQuartz) and <strong>SDL3 + OpenGL3</strong> on macOS or Linux — SDL3 picks Wayland, X11, or KMS/DRM at run time, so there&rsquo;s no hard X11 dependency, and it even renders <strong>headless</strong> via Mesa software for CI. The classic <code>rc_graphic</code> turtle library is ported on top, so existing Pop-11 graphics code runs unchanged. Demos include the classic <a href="https://10print.org/">10 PRINT</a> maze and a vsync-paced spinning 3D cube.</p>
+<h2 id="porting-knowledge-written-down">Porting knowledge, written down</h2>
+<p>A port is only worth as much as the next person can reuse. We shipped an unusually deep set of notes — a <a href="https://github.com/IoTone/poplog/blob/master/PORTING-POPLOG.md">porting recipe</a>, a <a href="https://github.com/IoTone/poplog/blob/master/HOSTING-LANGUAGES.md">guide to hosting a new language on the VM</a>, the AArch64 frame contract, RISC-V porting notes, and forensic write-ups of specific codegen bugs (false-label leaks, tail-subtract high-word, stale I-cache SIGILLs) — so the next architecture is a documented walk, not an archaeology dig.</p>
+<h2 id="benchmarks">Benchmarks</h2>
+<p>We published a rigorous <a href="https://github.com/IoTone/poplog/blob/master/BENCHMARKS.md">benchmark suite</a>: engine micro-benchmarks (calls, arithmetic, allocation/GC, incremental compilation, closures, strings) as the <strong>median of 30 runs</strong> with bootstrap 95% confidence intervals, across five machines — Intel i7, Apple M2, <strong>Apple M5 Pro</strong>, Raspberry Pi 5, and the <strong>RISC-V</strong> VisionFive — with Python and Perl baselines. A representative result: Poplog <strong>runtime-compiles a procedure to machine code in ~5.5 ms on an M5 Pro</strong> — parity with, or faster than, interpreters merely building bytecode.</p>
+<h2 id="status">Status</h2>
+<p>Active. A self-contained <strong>Nix flake</strong> builds and bootstraps the whole system — all five front-ends and their saved images — from source (<code>nix build .#poplog</code>, or <code>.#poplog-gfx</code> for the graphics variant). Source, ports, docs, and benchmarks on <a href="https://github.com/IoTone/poplog">github.com/IoTone</a>.</p>
+
+    </article>
+  </div>
+</div>
+
+</main>
+<footer class="site" role="contentinfo">
+  <div class="brand-block">
+    <a class="brand" href="/">
+      <img class="logo" src="/images/thumbs/iotone_logo_v1d250x250.png" alt="IoTone, Inc.">
+      IoTone
+    </a>
+    Open source for spatial, wearable, and IoT. PDX &#43; Fukuoka.
+  </div>
+
+  <div class="col">
+    <h4>Studio</h4>
+    <a href="/projects/">Work</a><a href="/news/">News</a><a href="/#about">Studio</a><a href="/contact/">Contact</a>
+  </div>
+
+  <div class="col">
+    <h4>Code</h4>
+    <a href="https://github.com/IoTone" rel="noopener">GitHub</a>
+    <a href="/news/index.xml">RSS</a>
+  </div>
+
+  <div class="col">
+    <h4>Reach</h4>
+    <a href="mailto:info@iotone.io">info@iotone.io</a>
+    <a href="https://www.linkedin.com/company/iotone-inc/" rel="noopener">LinkedIn</a>
+    <a href="tel:&#43;14156448938">&#43;1 (415) 644-8938</a>
+  </div>
+
+  <div class="copyright">
+    Copyright &copy; IoTone, Inc. 2014-2026.
+    For sponsorship of open source, <a href='mailto:info@iotone.io'>contact us</a>.
+  </div>
+</footer>
+
+</body>
+</html>

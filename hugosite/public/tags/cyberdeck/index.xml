@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cyberdeck on IoTone, Inc.</title><link>/tags/cyberdeck/</link><description>Recent content in Cyberdeck on IoTone, Inc.</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 13 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/cyberdeck/index.xml" rel="self" type="application/rss+xml"/><item><title>PONY-Cyberdeck-25 spec published (it's not a pony)</title><link>/news/2025-09-13-pony-cyberdeck-25/</link><pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate><guid>/news/2025-09-13-pony-cyberdeck-25/</guid><description>ポニーデッキ — a cyberdeck spec on the GTI Cortadobin CASE8 base, with MediaTek + OrangePi options.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cyberdeck on IoTone, Inc.</title>
+    <link>/tags/cyberdeck/</link>
+    <description>Recent content in Cyberdeck on IoTone, Inc.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/cyberdeck/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PONY-Cyberdeck-25 spec published (it&#39;s not a pony)</title>
+      <link>/news/2025-09-13-pony-cyberdeck-25/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/news/2025-09-13-pony-cyberdeck-25/</guid>
+      <description>ポニーデッキ — a cyberdeck spec on the GTI Cortadobin CASE8 base, with MediaTek + OrangePi options.</description>
+    </item>
+  </channel>
+</rss>

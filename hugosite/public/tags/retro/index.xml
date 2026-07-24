@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Retro on IoTone, Inc.</title><link>/tags/retro/</link><description>Recent content in Retro on IoTone, Inc.</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 23 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="/tags/retro/index.xml" rel="self" type="application/rss+xml"/><item><title>Burisu (ブライス)</title><link>/projects/burisu/</link><pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate><guid>/projects/burisu/</guid><description>A browser-native remake of the classic KPT Bryce 3D landscape generator — Rust compiled to WASM, rendered with WebGPU, tuned to run on a 4GB Raspberry Pi 5.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Retro on IoTone, Inc.</title>
+    <link>/tags/retro/</link>
+    <description>Recent content in Retro on IoTone, Inc.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/retro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Burisu (ブライス)</title>
+      <link>/projects/burisu/</link>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>/projects/burisu/</guid>
+      <description>A browser-native remake of the classic KPT Bryce 3D landscape generator — Rust compiled to WASM, rendered with WebGPU, tuned to run on a 4GB Raspberry Pi 5.</description>
+    </item>
+  </channel>
+</rss>

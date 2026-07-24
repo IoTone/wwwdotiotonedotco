@@ -1,14 +1,184 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"><meta name=viewport content="width=device-width,initial-scale=1"><title>MusicPixels — a generative synth on the M5 Cardputer ADV + Unit Glass — IoTone, Inc.</title>
-<meta name=description content="CardputerADV Hacking Japan opens with MusicPixels: a self-contained generative synthesizer for the M5Stack Cardputer ADV, with audio-reactive geometry on a transparent M5 Unit Glass OLED."><meta name=keywords content="IoTone,Poplog,Pop-11,Prolog,Common Lisp,Standard ML,ELIZA,RISC-V,Apple Silicon,Raspberry Pi 5,Snap Spectacles,AR,XR,Spatial Computing,Polynode,Lensfest,IoT,Matter,Zigbee,Thread,Meshtastic,Wearable,Open Source,Portland,PDX,Fukuoka,IoTone Japan"><meta name=author content="IoTone, Inc."><meta property="og:site_name" content="IoTone, Inc."><meta property="og:title" content="MusicPixels — a generative synth on the M5 Cardputer ADV + Unit Glass — IoTone, Inc."><meta property="og:description" content="CardputerADV Hacking Japan opens with MusicPixels: a self-contained generative synthesizer for the M5Stack Cardputer ADV, with audio-reactive geometry on a transparent M5 Unit Glass OLED."><meta property="og:type" content="article"><meta property="og:url" content="/news/2026-07-18-cardputer-musicpixels/"><meta property="og:image" content="/images/full/iotone_logo_v1d.png"><meta property="og:locale" content="en_us"><meta property="article:published_time" content="2026-07-18T00:00:00Z"><meta property="article:modified_time" content="2026-07-18T00:00:00Z"><meta property="article:tag" content="release"><meta property="article:tag" content="hardware"><meta property="article:tag" content="m5stack"><meta property="article:tag" content="cardputer"><meta property="article:tag" content="synthesizer"><meta property="article:tag" content="fukuoka"><meta property="article:tag" content="generative"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="MusicPixels — a generative synth on the M5 Cardputer ADV + Unit Glass — IoTone, Inc."><meta name=twitter:description content="CardputerADV Hacking Japan opens with MusicPixels: a self-contained generative synthesizer for the M5Stack Cardputer ADV, with audio-reactive geometry on a transparent M5 Unit Glass OLED."><meta name=twitter:image content="/images/full/iotone_logo_v1d.png"><link rel=canonical href=/news/2026-07-18-cardputer-musicpixels/><link rel=alternate type=application/rss+xml title="IoTone, Inc. News" href=/news/index.xml><link rel=icon href=/images/favicon.ico type=image/x-icon><link rel=apple-touch-icon href=/images/apple-touch-icon.png><link rel=stylesheet href=/css/main.css><script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","headline":"MusicPixels — a generative synth on the M5 Cardputer ADV + Unit Glass","description":"CardputerADV Hacking Japan opens with MusicPixels: a self-contained generative synthesizer for the M5Stack Cardputer ADV, with audio-reactive geometry on a transparent M5 Unit Glass OLED.","datePublished":"2026-07-18T00:00:00Z","dateModified":"2026-07-18T00:00:00Z","author":{"@type":"Organization","name":"IoTone, Inc.","url":"\/"},"publisher":{"@type":"Organization","name":"IoTone, Inc.","logo":{"@type":"ImageObject","url":"\/images\/full\/iotone_logo_v1d.png"}},"image":"\/images\/full\/iotone_logo_v1d.png","mainEntityOfPage":{"@type":"WebPage","@id":"\/news\/2026-07-18-cardputer-musicpixels\/"},"keywords":["release","hardware","m5stack","cardputer","synthesizer","fukuoka","generative"]}</script><meta name=generator content="Hugo 0.135.0"></head><body><a class=skip-link href=#main>Skip to content</a><header class="nav page" role=banner><a class=brand href=/ aria-label="IoTone, Inc. — home"><img class=logo src=/images/thumbs/iotone_logo_v1d250x250.png alt="IoTone, Inc.">
-IoTone</a><nav class=links role=navigation aria-label=Primary><a href=/projects/>Work</a>
-<a href=/news/ class=active>News</a>
-<a href=/#about>Studio</a>
-<a href=/contact/>Contact</a></nav><a class=cta href=https://github.com/IoTone rel=noopener>GitHub</a></header><main id=main role=main><article class=post><span class=pill>Release · 2026</span><h1>MusicPixels — a generative synth on the M5 Cardputer ADV + Unit Glass</h1><p class=lede>CardputerADV Hacking Japan opens with MusicPixels: a self-contained generative synthesizer for the M5Stack Cardputer ADV, with audio-reactive geometry on a transparent M5 Unit Glass OLED.</p><p class=meta><a href=/news/>News</a> ·
-<time datetime=2026-07-18>July 18, 2026</time>
-· 1 min read</p><div class=visual></div><div class=content><p>We kicked off <strong>CardputerADV Hacking Japan</strong> — an IoTone hardware-hacking effort out of Fukuoka — with its first project, <a href=https://github.com/IoTone/CardputerADV_Hacking_Japan>MusicPixels</a>.</p><p>MusicPixels turns an <a href=https://shop.m5stack.com>M5Stack Cardputer ADV</a> into a stand-alone generative synthesizer. Music plays from the built-in speaker; a transparent <strong>M5 Unit Glass (U158)</strong> OLED on the Grove port renders a different audio-reactive geometric scene per genre; the LCD shows what&rsquo;s playing.</p><h2 id=four-genres-re-seeded-every-time>Four genres, re-seeded every time</h2><p>Ambient (breathing polygons + note ripples), Downtempo (beat-expanding rings), Synthwave (a scrolling perspective grid + sun), and Classical (Lissajous curves drawn from the melody). Each is re-randomized from a fresh seed on selection, so it never plays the same way twice, and genre switches crossfade over a second.</p><h2 id=whats-inside>What&rsquo;s inside</h2><p>A 7-voice subtractive synth — polyBLEP oscillators, a TPT state-variable filter, ADSR, synthesized drums, feedback delay, and a soft-clip master — renders in 256-sample blocks at 24 kHz on core 0 via M5Unified&rsquo;s I2S/DMA speaker. It runs entirely on the microcontroller; the Unit Glass is optional (no Glass, no problem — the music and LCD keep going).</p><p>Build with PlatformIO and launch from <a href=https://github.com/bmorcelli/M5Stick-Launcher>M5Launcher</a>, or flash over USB. Source on <a href=https://github.com/IoTone/CardputerADV_Hacking_Japan>github.com/IoTone</a>.</p></div><div class=tags><span class=tag>release</span><span class=tag>hardware</span><span class=tag>m5stack</span><span class=tag>cardputer</span><span class=tag>synthesizer</span><span class=tag>fukuoka</span><span class=tag>generative</span></div><div class=source-strip>Source: <a href=https://github.com/IoTone/CardputerADV_Hacking_Japan rel=noopener>https://github.com/IoTone/CardputerADV_Hacking_Japan</a></div></article></main><footer class=site role=contentinfo><div class=brand-block><a class=brand href=/><img class=logo src=/images/thumbs/iotone_logo_v1d250x250.png alt="IoTone, Inc.">
-IoTone
-</a>Open source for spatial, wearable, and IoT. PDX + Fukuoka.</div><div class=col><h4>Studio</h4><a href=/projects/>Work</a><a href=/news/>News</a><a href=/#about>Studio</a><a href=/contact/>Contact</a></div><div class=col><h4>Code</h4><a href=https://github.com/IoTone rel=noopener>GitHub</a>
-<a href=/news/index.xml>RSS</a></div><div class=col><h4>Reach</h4><a href=mailto:info@iotone.io>info@iotone.io</a>
-<a href=https://www.linkedin.com/company/iotone-inc/ rel=noopener>LinkedIn</a>
-<a href=tel:+14156448938>+1 (415) 644-8938</a></div><div class=copyright>Copyright &copy; IoTone, Inc. 2014-2026.
-For sponsorship of open source, <a href=mailto:info@iotone.io>contact us</a>.</div></footer></body></html>
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MusicPixels — a generative synth on the M5 Cardputer ADV &#43; Unit Glass — IoTone, Inc.</title>
+<meta name="description" content="CardputerADV Hacking Japan opens with MusicPixels: a self-contained generative synthesizer for the M5Stack Cardputer ADV, with audio-reactive geometry on a transparent M5 Unit Glass OLED.">
+<meta name="keywords" content="IoTone, Poplog, Pop-11, Prolog, Common Lisp, Standard ML, ELIZA, RISC-V, Apple Silicon, Raspberry Pi 5, Snap Spectacles, AR, XR, Spatial Computing, Polynode, Lensfest, IoT, Matter, Zigbee, Thread, Meshtastic, Wearable, Open Source, Portland, PDX, Fukuoka, IoTone Japan">
+<meta name="author" content="IoTone, Inc.">
+
+
+<meta property="og:site_name" content="IoTone, Inc.">
+<meta property="og:title" content="MusicPixels — a generative synth on the M5 Cardputer ADV &#43; Unit Glass — IoTone, Inc.">
+<meta property="og:description" content="CardputerADV Hacking Japan opens with MusicPixels: a self-contained generative synthesizer for the M5Stack Cardputer ADV, with audio-reactive geometry on a transparent M5 Unit Glass OLED.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="/news/2026-07-18-cardputer-musicpixels/">
+<meta property="og:image" content="/images/full/iotone_logo_v1d.png">
+<meta property="og:locale" content="en_us">
+
+<meta property="article:published_time" content="2026-07-18T00:00:00Z">
+<meta property="article:modified_time" content="2026-07-18T00:00:00Z">
+<meta property="article:tag" content="release">
+<meta property="article:tag" content="hardware">
+<meta property="article:tag" content="m5stack">
+<meta property="article:tag" content="cardputer">
+<meta property="article:tag" content="synthesizer">
+<meta property="article:tag" content="fukuoka">
+<meta property="article:tag" content="generative">
+
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MusicPixels — a generative synth on the M5 Cardputer ADV &#43; Unit Glass — IoTone, Inc.">
+<meta name="twitter:description" content="CardputerADV Hacking Japan opens with MusicPixels: a self-contained generative synthesizer for the M5Stack Cardputer ADV, with audio-reactive geometry on a transparent M5 Unit Glass OLED.">
+<meta name="twitter:image" content="/images/full/iotone_logo_v1d.png">
+
+
+
+<link rel="canonical" href="/news/2026-07-18-cardputer-musicpixels/">
+<link rel="alternate" type="application/rss+xml" title="IoTone, Inc. News" href="/news/index.xml">
+
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "MusicPixels — a generative synth on the M5 Cardputer ADV + Unit Glass",
+  "description": "CardputerADV Hacking Japan opens with MusicPixels: a self-contained generative synthesizer for the M5Stack Cardputer ADV, with audio-reactive geometry on a transparent M5 Unit Glass OLED.",
+  "datePublished": "2026-07-18T00:00:00Z",
+  "dateModified": "2026-07-18T00:00:00Z",
+  "author": {
+    "@type": "Organization",
+    "name": "IoTone, Inc.",
+    "url": "\/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "IoTone, Inc.",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "\/images\/full\/iotone_logo_v1d.png"
+    }
+  },
+  "image": "\/images\/full\/iotone_logo_v1d.png",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "\/news\/2026-07-18-cardputer-musicpixels\/"
+  },
+  "keywords": ["release","hardware","m5stack","cardputer","synthesizer","fukuoka","generative"]
+}
+</script>
+
+
+
+<meta name="generator" content="Hugo 0.135.0">
+
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="nav page" role="banner">
+  <a class="brand" href="/" aria-label="IoTone, Inc. — home">
+    <img class="logo" src="/images/thumbs/iotone_logo_v1d250x250.png" alt="IoTone, Inc.">
+    IoTone
+  </a>
+  <nav class="links" role="navigation" aria-label="Primary">
+    
+      
+      <a href="/projects/">Work</a>
+    
+      
+      <a href="/news/" class="active">News</a>
+    
+      
+      <a href="/#about">Studio</a>
+    
+      
+      <a href="/contact/">Contact</a>
+    
+  </nav>
+  <a class="cta" href="https://github.com/IoTone" rel="noopener">GitHub</a>
+</header>
+
+<main id="main" role="main">
+  <article class="post">
+  <span class="pill">Release · 2026</span>
+  <h1>MusicPixels — a generative synth on the M5 Cardputer ADV &#43; Unit Glass</h1>
+  <p class="lede">CardputerADV Hacking Japan opens with MusicPixels: a self-contained generative synthesizer for the M5Stack Cardputer ADV, with audio-reactive geometry on a transparent M5 Unit Glass OLED.</p>
+  <p class="meta">
+    <a href="/news/">News</a> ·
+    <time datetime="2026-07-18">July 18, 2026</time>
+     · 1 min read
+  </p>
+  
+  <div class="visual"></div>
+  
+  <div class="content">
+    <p>We kicked off <strong>CardputerADV Hacking Japan</strong> — an IoTone hardware-hacking effort out of Fukuoka — with its first project, <a href="https://github.com/IoTone/CardputerADV_Hacking_Japan">MusicPixels</a>.</p>
+<p>MusicPixels turns an <a href="https://shop.m5stack.com">M5Stack Cardputer ADV</a> into a stand-alone generative synthesizer. Music plays from the built-in speaker; a transparent <strong>M5 Unit Glass (U158)</strong> OLED on the Grove port renders a different audio-reactive geometric scene per genre; the LCD shows what&rsquo;s playing.</p>
+<h2 id="four-genres-re-seeded-every-time">Four genres, re-seeded every time</h2>
+<p>Ambient (breathing polygons + note ripples), Downtempo (beat-expanding rings), Synthwave (a scrolling perspective grid + sun), and Classical (Lissajous curves drawn from the melody). Each is re-randomized from a fresh seed on selection, so it never plays the same way twice, and genre switches crossfade over a second.</p>
+<h2 id="whats-inside">What&rsquo;s inside</h2>
+<p>A 7-voice subtractive synth — polyBLEP oscillators, a TPT state-variable filter, ADSR, synthesized drums, feedback delay, and a soft-clip master — renders in 256-sample blocks at 24 kHz on core 0 via M5Unified&rsquo;s I2S/DMA speaker. It runs entirely on the microcontroller; the Unit Glass is optional (no Glass, no problem — the music and LCD keep going).</p>
+<p>Build with PlatformIO and launch from <a href="https://github.com/bmorcelli/M5Stick-Launcher">M5Launcher</a>, or flash over USB. Source on <a href="https://github.com/IoTone/CardputerADV_Hacking_Japan">github.com/IoTone</a>.</p>
+
+  </div>
+
+  
+  <div class="tags">
+    <span class="tag">release</span><span class="tag">hardware</span><span class="tag">m5stack</span><span class="tag">cardputer</span><span class="tag">synthesizer</span><span class="tag">fukuoka</span><span class="tag">generative</span>
+  </div>
+  
+
+  
+  <div class="source-strip">
+    Source: <a href="https://github.com/IoTone/CardputerADV_Hacking_Japan" rel="noopener">https://github.com/IoTone/CardputerADV_Hacking_Japan</a>
+  </div>
+  
+</article>
+
+</main>
+<footer class="site" role="contentinfo">
+  <div class="brand-block">
+    <a class="brand" href="/">
+      <img class="logo" src="/images/thumbs/iotone_logo_v1d250x250.png" alt="IoTone, Inc.">
+      IoTone
+    </a>
+    Open source for spatial, wearable, and IoT. PDX &#43; Fukuoka.
+  </div>
+
+  <div class="col">
+    <h4>Studio</h4>
+    <a href="/projects/">Work</a><a href="/news/">News</a><a href="/#about">Studio</a><a href="/contact/">Contact</a>
+  </div>
+
+  <div class="col">
+    <h4>Code</h4>
+    <a href="https://github.com/IoTone" rel="noopener">GitHub</a>
+    <a href="/news/index.xml">RSS</a>
+  </div>
+
+  <div class="col">
+    <h4>Reach</h4>
+    <a href="mailto:info@iotone.io">info@iotone.io</a>
+    <a href="https://www.linkedin.com/company/iotone-inc/" rel="noopener">LinkedIn</a>
+    <a href="tel:&#43;14156448938">&#43;1 (415) 644-8938</a>
+  </div>
+
+  <div class="copyright">
+    Copyright &copy; IoTone, Inc. 2014-2026.
+    For sponsorship of open source, <a href='mailto:info@iotone.io'>contact us</a>.
+  </div>
+</footer>
+
+</body>
+</html>

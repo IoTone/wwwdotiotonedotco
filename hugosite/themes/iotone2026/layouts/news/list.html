@@ -12,7 +12,11 @@
       <p>{{ with $feature.Params.summary }}{{ . | plainify | truncate 220 }}{{ else }}{{ $feature.Summary | plainify | truncate 220 }}{{ end }}</p>
       <a class="btn primary" href="{{ $feature.RelPermalink }}">Read the story →</a>
     </div>
+    {{ if $feature.Params.hero_image }}
+    <div class="visual"><img src="{{ $feature.Params.hero_image | absURL }}" alt="{{ $feature.Title }}"></div>
+    {{ else }}
     <div class="visual"></div>
+    {{ end }}
   </div>
   {{ end }}
 
