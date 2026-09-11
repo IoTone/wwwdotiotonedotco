@@ -15,7 +15,7 @@ related_projects:
   - "burisu"
   - "pop11-editor-tooling"
 summary: "We brought Poplog — the classic multi-language AI development environment (Pop-11, Prolog, Common Lisp, Standard ML) — natively onto Apple Silicon, Raspberry Pi 5, and RISC-V. Then we added a fifth language, a real ELIZA, native graphics, and a full benchmark suite."
-tags: ["poplog", "pop-11", "prolog", "common-lisp", "standard-ml", "forth", "eliza", "ai-history", "riscv", "apple-silicon", "raspberry-pi", "porting", "benchmarks", "claude"]
+tags: ["poplog", "pop-11", "book", "prolog", "common-lisp", "standard-ml", "forth", "eliza", "ai-history", "riscv", "apple-silicon", "raspberry-pi", "porting", "benchmarks", "claude"]
 ---
 
 ## What it is
@@ -56,6 +56,10 @@ A port is only worth as much as the next person can reuse. We shipped an unusual
 ## Benchmarks
 
 We published a rigorous [benchmark suite](https://github.com/IoTone/poplog/blob/master/BENCHMARKS.md): engine micro-benchmarks (calls, arithmetic, allocation/GC, incremental compilation, closures, strings) as the **median of 30 runs** with bootstrap 95% confidence intervals, across five machines — Intel i7, Apple M2, **Apple M5 Pro**, Raspberry Pi 5, and the **RISC-V** VisionFive — with Python and Perl baselines. A representative result: Poplog **runtime-compiles a procedure to machine code in ~5.5 ms on an M5 Pro** — parity with, or faster than, interpreters merely building bytecode.
+
+## The book
+
+[**Pop-11 and the Robot Army**](https://iotone.github.io/poplog/poplog-book.pdf) is the project's free, 31-page introduction to Poplog and Pop-11 — framed around a fleet of robots and the AI agent commanding them, with every listing executed against this tree and the runnable programs in `examples/robotarmy/`. Text, listings, diagrams and cover art are released under **CC0 1.0**. See the [announcement](/news/2026-09-10-pop11-and-the-robot-army/).
 
 ## Status
 
