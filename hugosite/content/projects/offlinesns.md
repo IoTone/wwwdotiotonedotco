@@ -11,6 +11,8 @@ featured: true
 hero_visual: "alt-5"
 pill: "Meshtastic JP"
 related_news: "/news/2025-07-02-offlinesns/"
+related_projects:
+  - "meshmore-xr"
 summary: "Community initiative bringing Meshtastic to Japan, started in Fukuoka. LoRa, Rust, and off-grid social."
 tags: ["meshtastic", "lora", "japan", "rust", "fukuoka"]
 ---

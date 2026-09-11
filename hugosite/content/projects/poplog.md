@@ -13,6 +13,7 @@ pill: "AI heritage revived"
 related_news: "/news/2026-07-24-poplog/"
 related_projects:
   - "burisu"
+  - "pop11-editor-tooling"
 summary: "We brought Poplog — the classic multi-language AI development environment (Pop-11, Prolog, Common Lisp, Standard ML) — natively onto Apple Silicon, Raspberry Pi 5, and RISC-V. Then we added a fifth language, a real ELIZA, native graphics, and a full benchmark suite."
 tags: ["poplog", "pop-11", "prolog", "common-lisp", "standard-ml", "forth", "eliza", "ai-history", "riscv", "apple-silicon", "raspberry-pi", "porting", "benchmarks", "claude"]
 ---

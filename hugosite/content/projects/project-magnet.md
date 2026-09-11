@@ -11,6 +11,8 @@ featured: true
 hero_visual: "alt-1"
 pill: "IoT runtime"
 related_news: "/news/2024-01-20-project-magnet/"
+related_projects:
+  - "espidforth"
 summary: "Distributed IoT data sync &amp; control across Matter, Zigbee, Thread, HomeKit, BLE, and Wi-Fi. ESP32 firmware + C++ runtime."
 tags: ["iot", "matter", "zigbee", "thread", "homekit", "esp32", "ble", "mqtt", "wifi"]
 ---
