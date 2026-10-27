@@ -36,12 +36,16 @@ To our knowledge it is the first mesh-networking application built for XR glasse
 - **Nine themes, three postures** — a room-scale field, an active mode that moves with you on a hike or a ride, and a tabletop diorama that anchors to a real desk and remembers it.
 - **Find anyone** — search by name or key, star your friends' nodes, tag the ones from that trip.
 - **Messages, hands-free** — threads read aloud per channel, replies by dictation or one-pinch canned responses, a wrist reel for triage.
-- **Channels by voice** — create a channel with a rolled two-word name and share it by saying it out loud, with honest guidance about what a spoken key can and cannot keep private.
+- **Channels by voice** — create a channel with a rolled two-word name and share it by saying it out loud, with clear guidance about what a spoken key can and cannot keep private.
 - **日本語 throughout**, at kanji-legible sizes — a launch language, not a translation pass.
 
 ## What it needs
 
 Android XR glasses (built and tested on the **XREAL Aura**) and a MeshCore LoRa companion radio over Bluetooth. Nothing else: no account, no server, **no internet permission**.
+
+## Who makes it
+
+The source is developed by **IoTone, Inc.** and the application is released by **IoTone Japan**, which handles the app's release and support. Questions about the published app go to IoTone Japan via the [product page](https://meshmore-xr-www.pages.dev/); code issues and contributions go to the GitHub repository.
 
 ## Source
 
@@ -49,4 +53,4 @@ Meshmore XR is **open source under the MIT (X11) License** — use it, modify it
 
 ## Status
 
-Active, v0.3.0, in development against a live **350-node mesh** with a Japan launch in preparation. The spatial member of the [Offline SNS](/projects/offlinesns/) family — [Meshmore SNS](https://github.com/IoTone/meshmore-sns) carries the same mesh on phones, and the device guide covers the radios that run it. Follow the [product page](https://meshmore-xr-www.pages.dev/) for the release.
+Active, v0.3.0, in development against a live **350-node mesh**, with a Japan launch by IoTone Japan in preparation. The spatial member of the [Offline SNS](/projects/offlinesns/) family — [Meshmore SNS](https://github.com/IoTone/meshmore-sns) carries the same mesh on phones, and the device guide covers the radios that run it. Follow the [product page](https://meshmore-xr-www.pages.dev/) for the release.

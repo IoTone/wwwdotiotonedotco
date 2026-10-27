@@ -27,7 +27,7 @@ To our knowledge this is the **first mesh-networking application built for XR gl
 - **Nine themes, three postures.** A room-scale field, an active mode that moves with you on a hike or a ride, and a tabletop diorama that anchors to a real desk and remembers it.
 - **Find anyone.** Search by name or key, star your friends' nodes, tag the ones from that trip — the ways people actually remember radios.
 - **Messages, hands-free.** Threads read aloud per channel if you ask, replies by dictation or one-pinch canned responses, a wrist reel for triage.
-- **Channels by voice.** Create a channel with a rolled two-word name and share it by saying it out loud — and be honest about what a spoken key can and cannot keep private.
+- **Channels by voice.** Create a channel with a rolled two-word name and share it by saying it out loud — with clear guidance about what a spoken key can and cannot keep private.
 - **Speaks Japanese.** 日本語 throughout, at kanji-legible sizes. Not a translation pass — a launch language.
 
 ## What it needs
@@ -36,10 +36,10 @@ Android XR glasses (built and tested on the **XREAL Aura**) and a **MeshCore** L
 
 ## Open source
 
-Meshmore XR is released under the **MIT (X11) License** — use it, modify it, ship it, commercially or otherwise, as long as the copyright notice travels with it. The code lives in the [meshmore-sns monorepo](https://github.com/IoTone/meshmore-sns/tree/main/meshmore-xr).
+Meshmore XR is released under the **MIT (X11) License** — use it, modify it, ship it, commercially or otherwise, as long as the copyright notice travels with it. The code lives in the [meshmore-sns monorepo](https://github.com/IoTone/meshmore-sns/tree/main/meshmore-xr). The source is developed by **IoTone, Inc.**; the application is released by **IoTone Japan**, which handles the app's release and support.
 
 ## Part of Offline SNS
 
 Meshmore XR is the spatial member of a family. [**Meshmore SNS**](https://github.com/IoTone/meshmore-sns) carries the same mesh on phones, the device guide covers the radios that run it, and the [Offline SNS project](/projects/offlinesns/) is the why behind all of it — off-grid communications for a country where cellular and Wi-Fi go down.
 
-In active development against a live **350-node mesh**, v0.3.0, with a Japan launch in preparation. Follow [the page](https://meshmore-xr-www.pages.dev/) for the release.
+In active development against a live **350-node mesh**, v0.3.0, with a Japan launch by IoTone Japan in preparation. Follow [the page](https://meshmore-xr-www.pages.dev/) for the release.
