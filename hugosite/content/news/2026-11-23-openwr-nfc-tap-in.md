@@ -34,7 +34,7 @@ Four demo scenes show what a tap can mean:
 
 The reader is about as cheap as hardware gets: an M5Stack ATOM Matrix and a PN532 NFC board, joined by four jumper wires. It sends each tap to the glasses over Bluetooth, with no pairing step and no internet.
 
-The lens only needs a tag's ID, so nothing has to be written to the tag. Blank stickers work, and so do tags that already hold a link. Tap four unknown tags and the lens learns them in order. The README lists which tag types work and which don't. Phones and bank cards don't, because they show a new random ID every time.
+The lens only needs a tag's ID, so nothing has to be written to the tag. Blank stickers work, and so do tags that already hold a link. Tap four unknown tags and the lens learns them in order. The README lists which tag types work and which don't. Phones and bank cards don't, because they show a new random ID every time. We buy our tags from [Tagstand](https://www.tagstand.com/), which sells NXP stickers, cards and fobs.
 
 ## LightScopeXR: a camera remote you wear
 
