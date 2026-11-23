@@ -57,7 +57,7 @@ It would be odd to build a host and not use it, so IoTone now has a space on the
 
 ### McElixr
 
-[**McElixr**](https://spicemine.iotj.cc/ui/iotone-oss/McElixr) is a parody AI startup sitting on a real multi-user, multi-tenant web portal, written in Elixir with Phoenix LiveView and PostgreSQL. It has its own post: [McElixr — a parody AI startup on top of a real multi-tenant portal](/news/2026-11-23-mcelixr/).
+[**McElixr**](https://spicemine.iotj.cc/ui/iotone-oss/McElixr) is a parody AI startup sitting on a real multi-user, multi-tenant web portal, written in Elixir with Phoenix LiveView and PostgreSQL, under the MIT License. It has its own post: [McElixr — a parody AI startup on top of a real multi-tenant portal](/news/2026-11-23-mcelixr/).
 
 ### modularry
 
