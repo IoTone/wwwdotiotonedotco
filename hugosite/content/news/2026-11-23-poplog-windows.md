@@ -17,7 +17,7 @@ related_projects:
 
 For years, the honest answer to "how do I run Poplog on my Windows PC?" has been "run Linux". You installed Ubuntu under WSL or in a virtual machine and ran the Linux build inside it. Poplog on Windows was really Poplog on Ubuntu.
 
-There was a Windows version once: a 32-bit port for Windows NT, decades ago. Traces of it survive in the source, but it was never carried forward to 64 bits and nothing of it could be reused. So this is, as far as we know, **the first 64-bit Windows Poplog**. It is a Windows program that needs no Linux anywhere on the machine.
+There was a Windows version once: a 32-bit port for Windows NT, decades ago. As later generations of Poplog moved on, through the getpoplog distributions, they took a POSIX-only route and Windows support was left behind. Traces of the old port survive in the source, but it was never carried forward to 64 bits and nothing of it could be reused. So this is, as far as we know, **the first 64-bit Windows Poplog**, and the first time in a generation that Windows has been a supported platform. It is a Windows program that needs no Linux anywhere on the machine.
 
 ## Five platforms
 
@@ -60,7 +60,7 @@ We ran our standard engine benchmarks on a 2022 Dell laptop (Intel Core i5-12500
 
 Poplog wins clearly on calls, arithmetic and allocation. Python wins on garbage collection, strings and compile time, though the last row is not like for like: Poplog is producing machine code there, while Python is building bytecode. This is the same pattern Poplog shows on every other platform we have measured.
 
-Each figure is a median with run-to-run variation under 3%, measured with every program pinned to one performance core. These numbers compare languages on one Windows machine. They are not a Windows-against-Linux comparison, which would need the same machine booted both ways. The method and the full table are in [BENCHMARKS.md](https://github.com/IoTone/poplog/blob/dev/BENCHMARKS.md).
+Each figure is a median with run-to-run variation under 3%, measured with every program pinned to one performance core. These numbers compare languages on one Windows machine. They are not a Windows-against-Linux comparison, which would need the same machine booted both ways. The method and the full table are in [BENCHMARKS.md](https://github.com/IoTone/poplog/blob/dev/BENCHMARKS.md), and our [Q4 performance update](/news/2026-11-23-poplog-performance-q4-2026/) compares all five platforms.
 
 ## Try it
 
