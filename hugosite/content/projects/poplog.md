@@ -14,8 +14,8 @@ related_news: "/news/2026-07-24-poplog/"
 related_projects:
   - "burisu"
   - "pop11-editor-tooling"
-summary: "We brought Poplog — the classic multi-language AI development environment (Pop-11, Prolog, Common Lisp, Standard ML) — natively onto Apple Silicon, Raspberry Pi 5, and RISC-V. Then we added a fifth language, a real ELIZA, native graphics, and a full benchmark suite."
-tags: ["poplog", "pop-11", "book", "prolog", "common-lisp", "standard-ml", "forth", "eliza", "ai-history", "riscv", "apple-silicon", "raspberry-pi", "porting", "benchmarks", "claude"]
+summary: "We brought Poplog — the classic multi-language AI development environment (Pop-11, Prolog, Common Lisp, Standard ML) — natively onto Apple Silicon, Raspberry Pi 5, RISC-V, and now Windows 11: five platforms in all. Then we added a fifth language, a real ELIZA, native graphics, and a full benchmark suite."
+tags: ["poplog", "pop-11", "book", "prolog", "common-lisp", "standard-ml", "forth", "eliza", "ai-history", "riscv", "windows", "apple-silicon", "raspberry-pi", "porting", "benchmarks", "claude"]
 ---
 
 ## What it is
@@ -37,9 +37,11 @@ Poplog compiles to real machine code on every backend, so a port isn't a recompi
 - **Raspberry Pi 5 / AArch64 Linux** — validated on the Pi 5 (all four languages + saved images), written to the generic `armv8-a` baseline so it ports readily to other ARM64 boards.
 - **RISC-V / riscv64 Linux** — a native RV64GC port, **self-hosting on a StarFive VisionFive** (dual SiFive U74). All four languages, saved images, terminal VED, and the FFI float ABI; the validation suite runs 14/14.
 
-## A fourth port: Windows 11 (experimental)
+## Windows 11: the first 64-bit Windows Poplog (experimental)
 
-In November 2026 Poplog gained a fourth new platform: **x86-64 Windows 11 under Cygwin**, with no need for WSL, Docker or Visual Studio. It builds itself from the same `configure` and `Makefile` as every other platform, runs external C calls, DLLs, callbacks and sockets, and has a native Dear ImGui backend on Direct3D 11. It is on the `dev` branch and has been validated on one machine so far. See [Poplog builds and runs on Windows 11](/news/2026-11-23-poplog-windows/).
+In November 2026 we added **x86-64 Windows 11**. Until then, running a current Poplog on a Windows PC meant running Linux under WSL or in a virtual machine; the only earlier Windows version was a 32-bit Windows NT port, decades old. The new port is a Windows program built with Cygwin, with no need for WSL, Docker or Visual Studio. It builds itself from the same `configure` and `Makefile` as every other platform, runs external C calls, DLLs, callbacks and sockets, and has a native Dear ImGui backend on Direct3D 11. On the same machine its compiled code runs five to nine times faster than Python 3.12 on calls, integer loops and list building. It is on the `dev` branch and has been validated on one machine so far. See [Poplog comes to Windows 11](/news/2026-11-23-poplog-windows/).
+
+That makes **five platforms**: Linux on x86-64, AArch64 and RISC-V, macOS on Apple silicon, and Windows 11 on x86-64.
 
 ## A fifth language: Forth
 
