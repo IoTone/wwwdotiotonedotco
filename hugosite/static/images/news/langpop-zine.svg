@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="297mm" height="210mm" viewBox="0 0 5940 4200" role="img" aria-label="study plan">
+  <title>langpop study plan</title>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <line x1="1485" y1="0" x2="1485" y2="4200" stroke="#e8e4db" stroke-width="2"/>
+  <line x1="2970" y1="0" x2="2970" y2="4200" stroke="#e8e4db" stroke-width="2"/>
+  <line x1="4455" y1="0" x2="4455" y2="4200" stroke="#e8e4db" stroke-width="2"/>
+  <line x1="0" y1="2100" x2="1485" y2="2100" stroke="#e8e4db" stroke-width="2"/>
+  <line x1="4455" y1="2100" x2="5940" y2="2100" stroke="#e8e4db" stroke-width="2"/>
+  <line x1="1485" y1="2100" x2="4455" y2="2100" stroke="#b9b2a4" stroke-width="4" stroke-dasharray="30 22"/>
+    <text x="2970" y="2070" font-size="46" fill="#b9b2a4" text-anchor="middle">cut along here</text>
+  <g font-family="&apos;Noto Sans JP&apos;, &apos;Hiragino Sans&apos;, &apos;Yu Gothic&apos;, Meiryo, sans-serif">
+  <g transform="translate(4455,2100)">
+    <rect x="70" y="70" width="1345" height="1960" fill="none" stroke="#d9d5cc" stroke-width="3"/>
+    <text x="742" y="640" font-size="165" fill="#1b1a17" text-anchor="middle">Study plan</text>
+    <text x="742" y="760" font-size="85" fill="#8a8275" text-anchor="middle">hana</text>
+    <text x="742" y="1250" font-size="215" fill="#1b1a17" text-anchor="middle">がんばって</text>
+    <text x="742" y="1760" font-size="64" fill="#8a8275" text-anchor="middle">ja  ·  preschool</text>
+    <text x="742" y="1860" font-size="50" fill="#b9b2a4" text-anchor="middle">2026-11-23</text>
+  </g>
+  <g transform="translate(5940,2100) rotate(180)">
+    <text x="120" y="250" font-size="140" fill="#1b1a17" text-anchor="start">Where you are</text>
+    <line x1="120" y1="310" x2="1365" y2="310" stroke="#d9d5cc" stroke-width="3"/>
+    <text x="120" y="400" font-size="50" fill="#8a8275" text-anchor="start">working at preschool</text>
+    <text x="120" y="560" font-size="64" fill="#1b1a17" text-anchor="start">kanji</text>
+    <text x="120" y="630" font-size="50" fill="#8a8275" text-anchor="start">not asked yet</text>
+    <text x="120" y="725" font-size="64" fill="#1b1a17" text-anchor="start">vocabulary</text>
+    <text x="120" y="795" font-size="50" fill="#8a8275" text-anchor="start">not asked yet</text>
+    <text x="120" y="890" font-size="64" fill="#1b1a17" text-anchor="start">skill dakuten</text>
+    <text x="120" y="960" font-size="50" fill="#8a8275" text-anchor="start">not asked yet</text>
+    <text x="120" y="1055" font-size="64" fill="#1b1a17" text-anchor="start">skill mora_sokuon</text>
+    <text x="120" y="1125" font-size="50" fill="#8a8275" text-anchor="start">not asked yet</text>
+    <text x="120" y="1220" font-size="64" fill="#1b1a17" text-anchor="start">skill mora_count</text>
+    <text x="120" y="1290" font-size="50" fill="#8a8275" text-anchor="start">not asked yet</text>
+    <text x="120" y="1385" font-size="64" fill="#1b1a17" text-anchor="start">recognise katakana</text>
+    <text x="120" y="1455" font-size="50" fill="#8a8275" text-anchor="start">not asked yet</text>
+    <text x="120" y="1550" font-size="64" fill="#1b1a17" text-anchor="start">recognise hiragana</text>
+    <text x="120" y="1620" font-size="50" fill="#8a8275" text-anchor="start">not asked yet</text>
+    <text x="742" y="2030" font-size="42" fill="#b9b2a4" text-anchor="middle">2</text>
+  </g>
+  <g transform="translate(4455,2100) rotate(180)">
+    <text x="120" y="250" font-size="140" fill="#1b1a17" text-anchor="start">How it is going</text>
+    <line x1="120" y1="310" x2="1365" y2="310" stroke="#d9d5cc" stroke-width="3"/>
+    <text x="120" y="500" font-size="64" fill="#1b1a17" text-anchor="start">recognise(hiragana)</text>
+    <text x="120" y="580" font-size="50" fill="#6b6457" text-anchor="start">no reviews yet this period</text>
+    <text x="120" y="645" font-size="50" fill="#6b6457" text-anchor="start">(needs 69)</text>
+    <text x="120" y="750" font-size="64" fill="#1b1a17" text-anchor="start">recognise(katakana)</text>
+    <text x="120" y="830" font-size="50" fill="#6b6457" text-anchor="start">no reviews yet this period</text>
+    <text x="120" y="895" font-size="50" fill="#6b6457" text-anchor="start">(needs 69)</text>
+    <text x="120" y="1000" font-size="64" fill="#1b1a17" text-anchor="start">skill(mora_count)</text>
+    <text x="120" y="1080" font-size="50" fill="#6b6457" text-anchor="start">no reviews yet this period</text>
+    <text x="120" y="1145" font-size="50" fill="#6b6457" text-anchor="start">(needs 1)</text>
+    <text x="120" y="1250" font-size="64" fill="#1b1a17" text-anchor="start">skill(mora_sokuon)</text>
+    <text x="120" y="1330" font-size="50" fill="#6b6457" text-anchor="start">no reviews yet this period</text>
+    <text x="120" y="1395" font-size="50" fill="#6b6457" text-anchor="start">(needs 1)</text>
+    <text x="120" y="1500" font-size="64" fill="#1b1a17" text-anchor="start">skill(dakuten)</text>
+    <text x="120" y="1580" font-size="50" fill="#6b6457" text-anchor="start">no reviews yet this period</text>
+    <text x="120" y="1645" font-size="50" fill="#6b6457" text-anchor="start">(needs 46)</text>
+    <text x="120" y="1820" font-size="64" fill="#8a8275" text-anchor="start">5 ready to learn now</text>
+    <text x="742" y="2030" font-size="42" fill="#b9b2a4" text-anchor="middle">3</text>
+  </g>
+  <g transform="translate(2970,2100) rotate(180)">
+    <text x="120" y="250" font-size="140" fill="#1b1a17" text-anchor="start">Next</text>
+    <line x1="120" y1="310" x2="1365" y2="310" stroke="#d9d5cc" stroke-width="3"/>
+    <text x="120" y="520" font-size="130" fill="#1b1a17" text-anchor="start">あ</text>
+    <text x="290" y="520" font-size="42" fill="#6b6457" text-anchor="start">a</text>
+    <text x="120" y="705" font-size="130" fill="#1b1a17" text-anchor="start">い</text>
+    <text x="290" y="705" font-size="42" fill="#6b6457" text-anchor="start">i</text>
+    <text x="120" y="890" font-size="130" fill="#1b1a17" text-anchor="start">う</text>
+    <text x="290" y="890" font-size="42" fill="#6b6457" text-anchor="start">u</text>
+    <text x="120" y="1075" font-size="130" fill="#1b1a17" text-anchor="start">え</text>
+    <text x="290" y="1075" font-size="42" fill="#6b6457" text-anchor="start">e</text>
+    <text x="120" y="1260" font-size="130" fill="#1b1a17" text-anchor="start">お</text>
+    <text x="290" y="1260" font-size="42" fill="#6b6457" text-anchor="start">o</text>
+    <text x="742" y="2030" font-size="42" fill="#b9b2a4" text-anchor="middle">4</text>
+  </g>
+  <g transform="translate(1485,2100) rotate(180)">
+    <text x="120" y="250" font-size="140" fill="#1b1a17" text-anchor="start">Then</text>
+    <line x1="120" y1="310" x2="1365" y2="310" stroke="#d9d5cc" stroke-width="3"/>
+    <text x="120" y="520" font-size="64" fill="#6b6457" text-anchor="start">Nothing more is ready</text>
+    <text x="120" y="603" font-size="64" fill="#6b6457" text-anchor="start">yet. These unlock as the</text>
+    <text x="120" y="686" font-size="64" fill="#6b6457" text-anchor="start">ones before them are</text>
+    <text x="120" y="769" font-size="64" fill="#6b6457" text-anchor="start">learned.</text>
+    <text x="742" y="2030" font-size="42" fill="#b9b2a4" text-anchor="middle">5</text>
+  </g>
+  <g transform="translate(0,2100)">
+    <text x="120" y="250" font-size="140" fill="#1b1a17" text-anchor="start">The ladder</text>
+    <line x1="120" y1="310" x2="1365" y2="310" stroke="#d9d5cc" stroke-width="3"/>
+    <text x="120" y="400" font-size="50" fill="#8a8275" text-anchor="start">ja, all of it</text>
+    <text x="120" y="540" font-size="64" fill="#1b1a17" text-anchor="start">preschool</text>
+    <text x="1365" y="540" font-size="50" fill="#2f4a7a" text-anchor="end">you are here</text>
+    <text x="120" y="690" font-size="64" fill="#8a8275" text-anchor="start">n5</text>
+    <text x="120" y="840" font-size="64" fill="#8a8275" text-anchor="start">n4</text>
+    <text x="120" y="990" font-size="64" fill="#8a8275" text-anchor="start">n3</text>
+    <text x="120" y="1140" font-size="64" fill="#8a8275" text-anchor="start">n2</text>
+    <text x="120" y="1290" font-size="64" fill="#8a8275" text-anchor="start">n1</text>
+    <text x="120" y="1500" font-size="50" fill="#8a8275" text-anchor="start">A rung opens when the one below</text>
+    <text x="120" y="1565" font-size="50" fill="#8a8275" text-anchor="start">it is met, not when a date</text>
+    <text x="120" y="1630" font-size="50" fill="#8a8275" text-anchor="start">passes.</text>
+    <text x="742" y="2030" font-size="42" fill="#b9b2a4" text-anchor="middle">6</text>
+  </g>
+  <g transform="translate(1485,2100)">
+    <text x="120" y="250" font-size="140" fill="#1b1a17" text-anchor="start">Worth another look</text>
+    <line x1="120" y1="310" x2="1365" y2="310" stroke="#d9d5cc" stroke-width="3"/>
+    <text x="120" y="520" font-size="64" fill="#6b6457" text-anchor="start">Nothing missed lately.</text>
+    <text x="120" y="603" font-size="64" fill="#6b6457" text-anchor="start">That is either very good</text>
+    <text x="120" y="686" font-size="64" fill="#6b6457" text-anchor="start">or a sign the questions</text>
+    <text x="120" y="769" font-size="64" fill="#6b6457" text-anchor="start">are too easy.</text>
+    <text x="742" y="2030" font-size="42" fill="#b9b2a4" text-anchor="middle">7</text>
+  </g>
+  <g transform="translate(2970,2100)">
+    <text x="120" y="250" font-size="140" fill="#1b1a17" text-anchor="start">Fold it</text>
+    <line x1="120" y1="310" x2="1365" y2="310" stroke="#d9d5cc" stroke-width="3"/>
+    <text x="120" y="460" font-size="50" fill="#6b6457" text-anchor="start">Print one sided. Fold in half</text>
+    <text x="120" y="525" font-size="50" fill="#6b6457" text-anchor="start">the short way, three times,</text>
+    <text x="120" y="590" font-size="50" fill="#6b6457" text-anchor="start">then open it out. Fold in half</text>
+    <text x="120" y="655" font-size="50" fill="#6b6457" text-anchor="start">the long way and cut the dashed</text>
+    <text x="120" y="720" font-size="50" fill="#6b6457" text-anchor="start">line. Open, fold the long way</text>
+    <text x="120" y="785" font-size="50" fill="#6b6457" text-anchor="start">again, push the ends together</text>
+    <text x="120" y="850" font-size="50" fill="#6b6457" text-anchor="start">until the cut opens, and</text>
+    <text x="120" y="915" font-size="50" fill="#6b6457" text-anchor="start">flatten it into a booklet.</text>
+    <text x="120" y="1240" font-size="64" fill="#1b1a17" text-anchor="start">On page 7</text>
+    <text x="120" y="1335" font-size="50" fill="#6b6457" text-anchor="start">+ right · ~ near miss</text>
+    <text x="120" y="1405" font-size="50" fill="#6b6457" text-anchor="start">? did not know · x wrong</text>
+    <text x="120" y="1620" font-size="42" fill="#8a8275" text-anchor="start">Drawn from your own answers, on this</text>
+    <text x="120" y="1674" font-size="42" fill="#8a8275" text-anchor="start">machine. Nothing here was downloaded</text>
+    <text x="120" y="1728" font-size="42" fill="#8a8275" text-anchor="start">and nothing was sent anywhere.</text>
+    <text x="120" y="1950" font-size="42" fill="#b9b2a4" text-anchor="start">langpop</text>
+    <text x="742" y="2030" font-size="42" fill="#b9b2a4" text-anchor="middle">8</text>
+  </g>
+  </g>
+</svg>
