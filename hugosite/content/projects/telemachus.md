@@ -46,4 +46,4 @@ Every screenshot in the README is produced by Playwright tours that drive a real
 
 ## Status
 
-Active and moving fast. Source, design docs, and the full feature tour on [github.com/IoTone/Telemachus](https://github.com/IoTone/Telemachus).
+Active and moving fast. The current version is **0.17.1** (November 2026), which follows a security audit and adds email to people outside the team, notes that link to their sources, and a knowledge graph that plugins can feed. See [TMach 0.17](/news/2026-11-23-tmach-0-17/). Source, design docs, and the full feature tour on [github.com/IoTone/Telemachus](https://github.com/IoTone/Telemachus).

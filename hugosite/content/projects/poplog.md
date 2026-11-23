@@ -37,6 +37,10 @@ Poplog compiles to real machine code on every backend, so a port isn't a recompi
 - **Raspberry Pi 5 / AArch64 Linux** — validated on the Pi 5 (all four languages + saved images), written to the generic `armv8-a` baseline so it ports readily to other ARM64 boards.
 - **RISC-V / riscv64 Linux** — a native RV64GC port, **self-hosting on a StarFive VisionFive** (dual SiFive U74). All four languages, saved images, terminal VED, and the FFI float ABI; the validation suite runs 14/14.
 
+## A fourth port: Windows 11 (experimental)
+
+In November 2026 Poplog gained a fourth new platform: **x86-64 Windows 11 under Cygwin**, with no need for WSL, Docker or Visual Studio. It builds itself from the same `configure` and `Makefile` as every other platform, runs external C calls, DLLs, callbacks and sockets, and has a native Dear ImGui backend on Direct3D 11. It is on the `dev` branch and has been validated on one machine so far. See [Poplog builds and runs on Windows 11](/news/2026-11-23-poplog-windows/).
+
 ## A fifth language: Forth
 
 Classic Poplog ships four languages. **We added a fifth — Forth — as a first-class subsystem.** It leans on Poplog's open-stack calling convention so the implementation stays tiny and genuinely native: Forth's data stack *is* the Poplog user stack, and colon definitions (`: name … ;`) **compile through Poplog's incremental compiler to machine code** — a Forth word is a real native procedure, not threaded interpreted code. `.fth` is a recognized file type and `uses forth;` drops you into a REPL alongside Pop-11, Lisp, Prolog, and ML. Its built-in testbench is 21/21 on macOS arm64 and RISC-V, and because it's pure Pop-11 it runs on **every platform Poplog does**.
