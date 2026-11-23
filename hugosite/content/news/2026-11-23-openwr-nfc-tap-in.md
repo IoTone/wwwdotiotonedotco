@@ -5,7 +5,7 @@ draft: false
 tags: ["openwr", "open-hardware", "wearables", "snap-spectacles", "nfc", "esp32", "e-paper", "xr", "forth"]
 summary: "OpenWR, our open hardware standard for wearables, has more than a hundred new commits on its dev branch. The newest is NFCTapInXR, a Spectacles lens that turns a tap on an NFC tag into something in the air. Alongside it: LightScopeXR, a Sony camera remote you wear; SubverseReader, a $50 e-paper reader shaped like a backstage pass; and Hiroglass, an open design for XR displays that clip onto the eyewear you already own."
 source_url: "https://github.com/IoTone/OpenWR/tree/dev"
-hero_image: "/images/news/openwr-subversereader.jpg"
+hero_image: "/images/news/openwr-nfc-tap-in.png"
 repo_url: "https://github.com/IoTone/OpenWR"
 related_projects:
   - "openwr"
@@ -49,7 +49,9 @@ The firmware for all three is written with [ESPIDFORTH](/projects/espidforth/), 
 
 ## SubverseReader: an e-paper reader on a lanyard
 
-[**SubverseReader**](https://github.com/IoTone/OpenWR/tree/dev/projects/prototypes/SubverseReader_REV1) is a wearable e-paper reader the size of a backstage pass, pictured above. Sync zines, ebooks and PDFs from your phone, then read on the pass with the phone off, for days or weeks per charge.
+![A render of the SubverseReader SR-1: an orange e-paper reader on a lanyard, front and back](/images/news/openwr-subversereader.jpg)
+
+[**SubverseReader**](https://github.com/IoTone/OpenWR/tree/dev/projects/prototypes/SubverseReader_REV1) is a wearable e-paper reader the size of a backstage pass. Sync zines, ebooks and PDFs from your phone, then read on the pass with the phone off, for days or weeks per charge.
 
 The target price is **$50 or less** per unit, about half of what the cheapest e-paper readers sell for. The first design round covers sixteen variants, with a parts list, a battery-life estimate and a render for each. The options include a front light, a four-colour panel, sizes that match stock backstage passes, and one that collects a zine when you tap it on an NFC tag. Two of them, the Dial Pass and the Setlist, now have printable enclosures.
 

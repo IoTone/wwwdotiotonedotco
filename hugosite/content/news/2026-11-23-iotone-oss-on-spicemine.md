@@ -5,6 +5,7 @@ draft: false
 tags: ["spicemine", "iotone-japan", "self-hosted", "elixir", "phoenix", "pop-11", "poplog", "eurorack", "synthesizers", "mercurial"]
 summary: "We now publish on Spicemine as well as GitHub. The new IoTone.co OSS space opens with two projects: McElixr, a parody AI startup sitting on a real multi-tenant web portal in Elixir and Phoenix, and modularry, a terminal assistant in Pop-11 for planning Eurorack synthesizer racks. Spicemine itself has reached v0.173.0 and is licensed under Apache 2.0."
 source_url: "https://spicemine.iotj.cc/ui/iotone-oss"
+hero_image: "/images/news/iotone-oss-spicemine.png"
 ---
 
 [Spicemine](/news/2026-11-13-spicemine/) is the self-hosted repository host we are building with IoTone Japan. It would be odd to build one and not use it, so IoTone now has a space there: [**IoTone.co OSS**](https://spicemine.iotj.cc/ui/iotone-oss).

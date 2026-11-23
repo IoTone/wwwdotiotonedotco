@@ -5,7 +5,7 @@ draft: false
 tags: ["poplog", "pop-11", "windows", "cygwin", "porting", "x86-64", "langpop", "language-learning"]
 summary: "Our Poplog port has a fourth platform: x86-64 Windows 11, built under Cygwin from the same configure and Makefile as everywhere else. It builds itself, runs all the Poplog languages, and has a native Direct3D graphics backend. It is experimental and lives on the dev branch. Also this month: langpop asks new students what they are learning for, and has phrases for travellers."
 source_url: "https://github.com/IoTone/poplog/blob/dev/INSTALL-WINDOWS.md"
-hero_image: "/images/news/poplog.png"
+hero_image: "/images/news/poplog-windows.png"
 repo_url: "https://github.com/IoTone/poplog"
 related_projects:
   - "poplog"
